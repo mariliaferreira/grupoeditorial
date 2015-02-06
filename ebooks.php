@@ -43,7 +43,7 @@
 
 			<h1>EBOOKS</h1>
 
-			<div class="tag-ebooks">
+			<div class="tag" id="tag-ebooks">
 				<ul>
 					<a href="#"><li>Tag 1</li></a>
 					<a href="#"><li>Tag 2</li></a>
