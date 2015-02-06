@@ -1002,10 +1002,17 @@ footer ul li a:hover, .texto-direito-bloco a:hover{
 
 .breadcrumb ul {
 	display: inline;
+	margin-left: 8%;
 }
 
 .breadcrumb ul li{
 	display: inline;
+	color: #114680;
+}
+
+.breadcrumb ul li a{
+	text-decoration: none;
+	color: #114680;
 }
 
 h1{
@@ -1016,18 +1023,18 @@ h1{
 	letter-spacing: 10px;
 }
 
-.tag-livros{
+.tag{
 	text-align: center;
 }
 
-.tag-livros ul{
+.tag ul{
 	display: inline;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.tag-livros ul li{
+.tag ul li{
 	display: inline;
 	text-align: center;
 	border: 1px solid #d9d9d9;
@@ -1043,30 +1050,53 @@ h1{
     color: #d9d9d9;
 }
 
-.tag-livros ul li:hover{
-	background-color: #ffb637;
-	-moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-    color: white;
-    border: 1px solid #ffb637;
-}
-
-.tag-livros ul li:active{
-	background-color: #ffb637;
-	-moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-    color: white;
-    border: 1px solid #ffb637;
-}
-
-.tag-livros ul a{
+.tag ul a{
 	text-decoration: none;
 	font-family: 'proxima_novaregular';
 }
+
+.tag ul li:hover{
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    color: white;
+}
+
+#tag-livros ul li:hover{
+	background-color: #ffb637;
+    border: 1px solid #ffb637;
+}
+
+#tag-ebooks ul li:hover{
+	background-color: #ff681e;
+    border: 1px solid #ff681e;
+}
+
+#tag-colecoes ul li:hover{
+	background-color: #ba69e4;
+    border: 1px solid #ba69e4;
+}
+
+#tag-promocoes ul li:hover{
+	background-color: #ef5454;
+    border: 1px solid #ef5454;
+}
+
+#tag-lancamento ul li:hover{
+	background-color: #58cbb1;
+    border: 1px solid #58cbb1;
+}
+
+
+#tag-resenhas ul li:hover{
+	background-color: #d6c58a;
+    border: 1px solid #d6c58a;
+}
+
+
+
+
 
 /* ---------- MEDIA QUERIES ------------ */
 
@@ -1122,6 +1152,7 @@ h1{
 
 
 @media screen and (max-width: 416px) { 
+	
 	.search--active .search__button {
 		cursor: default;
 		-webkit-transform: translate3d(-100%, 0, 0);

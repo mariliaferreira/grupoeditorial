@@ -3,9 +3,9 @@
 	<head>
 	  <title>Grupo Editorial PUCPR - Editora Champagnat, PUCPress e PUCSul</title>
 
-	  <!-- Meta Tags - InformaÃ§Ãµes sobre o Website -->
+	  <!-- Meta Tags - Informações sobre o Website -->
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <meta name="keywords" content="grupo editorial pucpr, champagnat, pucpress, pucsul, livro, livros, revistas, acadÃªmico, pucpr">
+	  <meta name="keywords" content="grupo editorial pucpr, champagnat, pucpress, pucsul, livro, livros, revistas, acadêmico, pucpr">
 	  <meta name="description" content="Grupo Editorial PUCPR - Editora Champagnat, PUCPress e PUCSul">
 	  <meta http-equiv="content-language" content="pt-br">
 	  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
@@ -41,9 +41,10 @@
 				</ul>
 			</div>
 
-			<h1>RESENHAS</h1>
+			<h1>LANÇAMENTO</h1>
 
-			<div class="tag" id="tag-resenhas">
+
+			<div class="tag" id="tag-lancamento">
 				<ul>
 					<a href="#"><li>Tag 1</li></a>
 					<a href="#"><li>Tag 2</li></a>

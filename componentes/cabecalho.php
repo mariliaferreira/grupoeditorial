@@ -62,7 +62,7 @@
 	    <li><a href="revistas.php">Revistas</a></li>
 	    <li><a href="colecoes.php">Coleções</a></li>
 	    <li><a href="promocoes.php">Promoções</a></li>
-	    <li><a href="lancamentos.php">Lançamentos</a></li>
+	    <li><a href="lancamento.php">Lançamentos</a></li>
 	    <li><a href="resenhas.php">Resenhas</a></li>
 	    <li><a href="">Editora Champagnat</a></li>
 	</ul>

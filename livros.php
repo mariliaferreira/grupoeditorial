@@ -43,7 +43,7 @@
 
 			<h1>LIVROS</h1>
 
-			<div class="tag-livros">
+			<div class="tag" id="tag-livros">
 				<ul>
 					<a href="#"><li>Tag 1</li></a>
 					<a href="#"><li>Tag 2</li></a>
@@ -65,41 +65,10 @@
 		</div>
 
 
-		<div class="container-livros">
-			<ul class="cbp-rfgrid">
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-					<li><a href="#"><div><h3>Felis catus</h3></div></a></li>
-				</ul>
-			</div>
-
+		<?php
+		require('componentes/container-livros.php');
+		?>
+		
 		<?php
 		require('componentes/footer.php');
 		?>

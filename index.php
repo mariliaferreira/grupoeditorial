@@ -30,17 +30,8 @@
 
 		<?php
 		require('componentes/cabecalho.php');
-		?>
-
-		<?php
 		require('componentes/banners.php');
-		?>
-
-		<?php
 		require('componentes/vitrine.php');
-		?>
-
-		<?php
 		require('componentes/footer.php');
 		?>
 
