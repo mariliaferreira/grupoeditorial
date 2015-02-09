@@ -1096,6 +1096,104 @@ h1{
 
 
 
+/* ---------- DETALHES LIVROS ------------ */
+
+.container-livro{
+	margin: 0 auto;
+	width: 75%;
+	height: 600px;
+	/*background-color: #d4d2d2;*/
+}
+
+.preview-livro{
+	width: 50%;
+	float: left;
+	height: 600px;
+	background-color: #d0f2bc;
+}
+
+.info-livro{
+	width: 50%;
+	height: 600px;
+	float: left;
+	/*background-color: #b9ddff;*/
+}
+
+ul#tabs {
+  	list-style-type: none;
+  	/*margin: 0 0 30px 0;*/
+  	padding: 0;
+  	text-align: center;
+
+  }
+ 
+ul#tabs li {
+    display: inline-block;
+    border-bottom: solid 5px #fff;
+    padding: 5px 15px;
+    
+    color: #717171;
+    cursor: pointer;
+    margin-right: 5%;
+    font-family: 'proxima_novaregular';
+    font-size: 1.0em;
+}
+
+ul#tabs li:hover {
+    border-bottom: solid 5px #ffb637;
+    color: #ffb637;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+ul#tabs li.active {
+    border-bottom: solid 5px #ffb637;
+    color: #ffb637;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+ul#tab {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+}
+
+ul#tab li {
+	display: none;
+	/*padding: 30px;*/
+	padding: 0 30px 30px 30px;
+}
+
+ul#tab li.active {
+  	display: block;
+}
+
+ul#tab li h2 {
+  	font-weight: 400;
+  	font-family: 'proxima_novabold';
+  	font-size: 2.2em;
+  	margin: 0;
+  	padding: 0;
+}
+
+ul#tab li h3{
+	font-weight: 400;
+ 	font-family: 'proxima_novabold';
+  	font-size: 1.6em;
+  	margin: 0;
+  	padding: 0;
+}
+
+.lista-autores-livro{
+
+}
+
+
 
 
 /* ---------- MEDIA QUERIES ------------ */
