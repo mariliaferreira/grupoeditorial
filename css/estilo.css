@@ -1100,8 +1100,9 @@ h1{
 
 .container-livro{
 	margin: 0 auto;
+	margin-top: 4%;
 	width: 75%;
-	height: 600px;
+	height: 800px;
 	/*background-color: #d4d2d2;*/
 }
 
@@ -1161,6 +1162,8 @@ ul#tab {
   	list-style-type: none;
   	margin: 0;
   	padding: 0;
+  	font-family: 'proxima_novaregular', sans-serif;
+
 }
 
 ul#tab li {
@@ -1189,8 +1192,64 @@ ul#tab li h3{
   	padding: 0;
 }
 
+#tab p{
+	line-height: 160%;
+	margin-top: 10%;
+}
+
 .lista-autores-livro{
 
+}
+
+.tabela-especificacao-livro td:first-child{
+	width: 35%;
+	text-align: right;
+	color: #717171;
+}
+
+.tabela-especificacao-livro td{
+	font-family: 'proxima_novaregular', sans-serif;
+	padding-left: 40px;
+	line-height: 210%;
+	color: #212121;
+}
+
+
+.botoes-acoes-livros span{
+	display: inline;
+	line-height: 330%;
+	text-align: center;
+	border: 1px solid #d9d9d9;
+	padding: 10px 20px 10px 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin-right: 5px;
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    color: #d9d9d9;
+}
+
+.calltoaction-comprar{
+	width: 100%;
+	background-color: green;
+	padding: 20px 20px;
+}
+
+.calltoaction-comprar span{
+	font-family: 'proxima_novabold';
+	font-size: 2.0em;
+}
+
+.calltoaction-comprar button{
+	background-color: #114680;
+	border: none;
+	color: #fff;
+	font-family: 'proxima_novabold';
+	font-size: 1.2em;
+	padding: 3% 3%;
 }
 
 

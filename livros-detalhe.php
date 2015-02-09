@@ -53,6 +53,7 @@
             <li>sobre o autor</li>
             <li>especificações</li>
         </ul>
+
         <ul id="tab">
             <li class="active">
                 <h2>Título do Livro</h2>
@@ -68,27 +69,30 @@
 
                 <p>Você gostaria da versão e-book deste livro? <a href="#">Conte para o autor.</a></p>
 
-                <div>
-	                <span><i class="fa fa-check-circle"></i> Disponível</span> 
-	                <span><i class="fa fa-file-text"></i> Resenha</span> 
-	                <span><i class="fa fa-quote-right"></i> Citar este livro</span> 
-	                <span><i class="fa fa-download"></i> Download PDF Capítulo 1 (Gratuito)</span>
+                <div class="botoes-acoes-livros">
+	                <span><a href="#"><i class="fa fa-check-circle"></i> Disponível</a></span> 
+	                <span><a href="#"><i class="fa fa-file-text"></i> Resenha</a></span> 
+	                <span><a href="#"><i class="fa fa-quote-right"></i> Citar livro</a></span> <br />
+	                <span><a href="#"><i class="fa fa-download"></i> Download PDF Capítulo 1 (Gratuito)</a></span>
 	            </div>
             </li>
 
             <li>
-                <span><img src="" /> Autor Um</span>
+                <h4><img src="" /> Autor Um</h4><br />
+                <a href="#">www.blogdoautor.com</a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-                <span><img src="" /> Autor Dois</span>
+                <h4><img src="" /> Autor Dois</h4><br />
+                <a href="#">www.blogdoautor.com</a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-                <span><img src="" /> Autor Três</span>
+                <h4><img src="" /> Autor Três</h4><br />
+                <a href="#">www.blogdoautor.com</a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </li>
 
             <li>
-                <table>
+                <table class="tabela-especificacao-livro">
 				  <tr>
 				    <td>Idioma</td>
 				    <td>Português</td>
@@ -120,7 +124,7 @@
 
 				<div class="calltoaction-comprar">
 					<span>R$25,00</span>
-					<button>Adicinar ao Carrinho</button>
+					<button>Adicionar ao Carrinho</button>
 				</div> <!-- fecha calltoaction-comprar -->
 
 			</div><!-- fecha info-livro -->
