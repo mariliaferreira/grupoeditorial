@@ -1,3 +1,6 @@
+<?php
+/* Codigo do PHP */
+?>
 <header>
 	<div class="logo" id="logo">
 		<a href="index.php">
@@ -15,8 +18,8 @@
 
 	<div class="user-acess">
 		<ul>
-			<li><a href="">registrar-se</a></li>
-			<li><a href="">login</a></li>
+			<li><a href="registrar.php">registrar-se</a></li>
+			<li><a href="login.php">login</a></li>
 		</ul>
 	</div><!-- /user-acess -->
 
@@ -29,9 +32,11 @@
 
 		<div class="search__order">
 			<div class="search__order-inner">
+				<form action="search.php" method="get">
 				<input placeholder="Qual título?" class="input-buscar"></input>
 				<button class="search__close search__cancel"><i class="icon fa fa-fw fa-close"></i>Close</button>
 				<button class="button-buscar">buscar</button>
+				</form>
 			</div><!-- /search__order-inner -->
 		</div><!-- /search__order -->
 	</div><!-- /search -->
@@ -64,6 +69,6 @@
 	    <li><a href="promocoes.php">Promoções</a></li>
 	    <li><a href="lancamento.php">Lançamentos</a></li>
 	    <li><a href="resenhas.php">Resenhas</a></li>
-	    <li><a href="">Editora Champagnat</a></li>
+	    <li><a href="index.php">Editora Champagnat</a></li>
 	</ul>
 </nav>
