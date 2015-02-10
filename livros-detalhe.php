@@ -53,13 +53,13 @@
 		<div class="container-livro">
 			<div class="preview-livro">
 				
-				<object data="objetos/exemploPDF.pdf" type="application/pdf" width="100%" height="100%" class="leitor-PDF">
+				<iframe src="objetos/exemploPDF.pdf" type="application/pdf" width="100%" height="100%" class="leitor-PDF">
  
 				  <p>Parece que você não tem um plugin para PDF neste navegador.
 				  Não tem problema! Você pode <a href="objetos/exemploPDF.pdf">baixar o PDF aqui.</a></p>
 				  
-				</object>
-
+				</iframe>
+				<a href="" target="_blank"><i class="fa fa-download"></i> Download do PDF</a>
 			</div> <!-- fecha preview livro -->
 
 			<div class="info-livro">
@@ -83,8 +83,7 @@
 		                <div class="botoes-acoes-livros">
 			                <a href="#"><span><i class="fa fa-check-circle"></i> Disponível</span> </a>
 			                <a href="#"><span><i class="fa fa-file-text"></i> Resenha</span> </a>
-			                <a href="#"><span><i class="fa fa-quote-right"></i> Citar livro</span></a> <br />
-			                <a href="#"><span><i class="fa fa-download"></i> Download PDF Capítulo 1 (Gratuito)</span></a>
+			                <a href="#"><span><i class="fa fa-quote-right"></i> Citar livro</span></a>
 			            </div>
 
 		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
