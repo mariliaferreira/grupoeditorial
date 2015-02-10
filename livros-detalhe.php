@@ -24,6 +24,13 @@
   	  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
   	  <script src="js/responsive-menu.js"></script>
   	  <script src="js/tabs.js"></script>
+
+  	<!--  <script type="text/javascript">
+	  //   window.onload = function (){
+	  //     var myPDF = new PDFObject({ url: "objetos/examplePDF.pdf" }).embed();
+	  //   };
+	  // </script>-->
+
 	</head>
 
 
@@ -45,87 +52,104 @@
 
 		<div class="container-livro">
 			<div class="preview-livro">
+				
+				<object data="objetos/exemploPDF.pdf" type="application/pdf" width="100%" height="100%" class="leitor-PDF">
+ 
+				  <p>Parece que você não tem um plugin para PDF neste navegador.
+				  Não tem problema! Você pode <a href="objetos/exemploPDF.pdf">baixar o PDF aqui.</a></p>
+				  
+				</object>
+
 			</div> <!-- fecha preview livro -->
 
 			<div class="info-livro">
 				<ul id="tabs">
-            <li class="active">sobre o livro</li>
-            <li>sobre o autor</li>
-            <li>especificações</li>
-        </ul>
+		            <li class="active">sobre o livro</li>
+		            <li>sobre o autor</li>
+		            <li>especificações</li>
+		        </ul>
 
-        <ul id="tab">
-            <li class="active">
-                <h2>Título do Livro</h2>
-                <h3>Subtítulo do Livro</h3>
+		        <ul id="tab">
+		            <li class="active">
+		                <h2>Título do Livro</h2>
+		                <h3>Subtítulo do Livro</h3>
 
-                <div class="lista-autores-livros">
-                	<span><img src="" /> Autor Um</span>
-                	<span><img src="" /> Autor Dois</span>
-                	<span><img src="" /> Autor Três</span>
-                </div>
+		                <div class="lista-autores-livros">
+		                	<span><img src="" /> Autor Um</span>
+		                	<span><img src="" /> Autor Dois</span>
+		                	<span><img src="" /> Autor Três</span>
+		                </div>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		                <div class="botoes-acoes-livros">
+			                <a href="#"><span><i class="fa fa-check-circle"></i> Disponível</span> </a>
+			                <a href="#"><span><i class="fa fa-file-text"></i> Resenha</span> </a>
+			                <a href="#"><span><i class="fa fa-quote-right"></i> Citar livro</span></a> <br />
+			                <a href="#"><span><i class="fa fa-download"></i> Download PDF Capítulo 1 (Gratuito)</span></a>
+			            </div>
 
-                <p>Você gostaria da versão e-book deste livro? <a href="#">Conte para o autor.</a></p>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                <div class="botoes-acoes-livros">
-	                <span><a href="#"><i class="fa fa-check-circle"></i> Disponível</a></span> 
-	                <span><a href="#"><i class="fa fa-file-text"></i> Resenha</a></span> 
-	                <span><a href="#"><i class="fa fa-quote-right"></i> Citar livro</a></span> <br />
-	                <span><a href="#"><i class="fa fa-download"></i> Download PDF Capítulo 1 (Gratuito)</a></span>
-	            </div>
-            </li>
+		                <p>Você gostaria da versão e-book deste livro? <a href="#">Conte para o autor.</a></p>
 
-            <li>
-                <h4><img src="" /> Autor Um</h4><br />
-                <a href="#">www.blogdoautor.com</a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		                
+		            </li>
 
-                <h4><img src="" /> Autor Dois</h4><br />
-                <a href="#">www.blogdoautor.com</a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		            <li>
+		                <h4><img src="" /> Autor Um</h4><br />
+		                <a href="#">www.blogdoautor.com</a>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-                <h4><img src="" /> Autor Três</h4><br />
-                <a href="#">www.blogdoautor.com</a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </li>
+		                <h4><img src="" /> Autor Dois</h4><br />
+		                <a href="#">www.blogdoautor.com</a>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-            <li>
-                <table class="tabela-especificacao-livro">
-				  <tr>
-				    <td>Idioma</td>
-				    <td>Português</td>
-				  </tr>
-				  <tr>
-				    <td>Páginas</td>
-				    <td>254</td>
-				  </tr>
-				  <tr>
-				    <td>Editora/Selo</td>
-				    <td>PUCPress</td>
-				  </tr>
-				  <tr>
-				    <td>Área</td>
-				    <td>Arquitetura e Urbanismo</td>
-				  </tr>
-				  <tr>
-				    <td>Ano</td>
-				    <td>2014</td>
-				  </tr>
-				  <tr>
-				    <td>ISBN</td>
-				    <td>2518548651/8</td>
-				  </tr>
-				</table>
-            </li>
-           
-        </ul>
+		                <h4><img src="" /> Autor Três</h4><br />
+		                <a href="#">www.blogdoautor.com</a>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		            </li>
+
+		            <li>
+		                <table class="tabela-especificacao-livro">
+						  <tr>
+						    <td>Idioma</td>
+						    <td>Português</td>
+						  </tr>
+						  <tr>
+						    <td>Páginas</td>
+						    <td>254</td>
+						  </tr>
+						  <tr>
+						    <td>Editora/Selo</td>
+						    <td>PUCPress</td>
+						  </tr>
+						  <tr>
+						    <td>Área</td>
+						    <td>Arquitetura e Urbanismo</td>
+						  </tr>
+						  <tr>
+						    <td>Ano</td>
+						    <td>2014</td>
+						  </tr>
+						  <tr>
+						    <td>ISBN</td>
+						    <td>2518548651/8</td>
+						  </tr>
+						</table>
+		            </li>
+		           
+		        </ul>
 
 				<div class="calltoaction-comprar">
 					<span>R$25,00</span>
 					<button>Adicionar ao Carrinho</button>
 				</div> <!-- fecha calltoaction-comprar -->
+
+				<div class="frete-prazo">
+					<span>Frete e Prazo</span><br />
+					<input placeholder="CEP"></input> - <input></input>
+					<button>Calcular</button>
+				</div><!-- fecha frete-prazo -->
+
 
 			</div><!-- fecha info-livro -->
 		</div><!-- fecha container livro -->
