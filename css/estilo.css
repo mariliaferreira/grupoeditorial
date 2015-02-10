@@ -19,6 +19,22 @@ h4{
 	font-size: 1.2em;
 }
 
+a{
+	margin: 0;
+	color: #6786a9;
+	text-decoration: none;
+	font-family: 'proxima_novaregular';
+}
+
+a:hover{
+	color: #114680;
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    font-weight: bold;
+}
+
 
 /* ---------- WEBFONTES ---------- */
 
@@ -1025,6 +1041,7 @@ footer ul li a:hover, .texto-direito-bloco a:hover{
 
 .breadcrumb ul li{
 	display: inline;
+	padding: 0 10px;
 }
 
 .breadcrumb ul li a{
@@ -1416,8 +1433,69 @@ ul#tab li h3{
 }
 
 
+/* ---------- LOGIN ---------- */
+.communication-box{
+	width: 20%;
+	height: 500px;
+	background-color: #f6f6f6;
+	margin: 0 auto;
+	margin-bottom: 4%;
+	padding: 2%;
+	border: solid 1px #dcdcdc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+}
 
+.communication-box img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.communication-box label{
+	font-family: 'proxima_novaregular'; 
+	color: #09294c;
+}
+
+.communication-box input{
+	border-bottom: 1px solid #B9C1CA;
+	background-color: #f6f6f6;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	margin-bottom: 10%;
+	width: 100%;
+}
+
+.communication input[type="text"]{
+    font-family: 'proxima_novaregular';
+}
+
+.communication-box button{
+	background-color: #114680;
+	border: none;
+	color: #fff;
+	font-family: 'proxima_novabold';
+	font-size: 1.2em;
+	padding: 5% 5%;
+	text-align: center;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 35%;
+}
+
+.communication-box button:active{
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.5) inset;
+	border: none;
+}
+
+.esqueci-senha{
+	float: right;
+}
 
 
 /* ---------- MEDIA QUERIES ------------ */
@@ -1444,7 +1522,6 @@ ul#tab li h3{
 	  	width: 80%;
 	  	margin-top: -75px;
 	}
-
 }
 
 @media screen and (max-width: 600px){
