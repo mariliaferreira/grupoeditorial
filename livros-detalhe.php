@@ -44,8 +44,8 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">breadcrumb one</a></li> <span>></span>
-					<li><a href="">breadcrumb two</a></li>
+					<li><a href="">Livros</a></li> <span>></span>
+					<li><a href="">Título do Livro</a></li>
 				</ul>
 			</div>
 		</div>
@@ -89,21 +89,21 @@
 
 		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-		                <p>Você gostaria da versão e-book deste livro? <a href="#">Conte para o autor.</a></p>
+		                <p><i class="fa fa-book"></i> Você gostaria da versão e-book deste livro? <a href="#">Conte para o autor.</a></p>
 
 		                
 		            </li>
 
-		            <li>
-		                <h4><img src="" /> Autor Um</h4><br />
+		            <li class="tab-sobre-autor">
+		                <h4><img src="" /> Autor Um</h4>
 		                <a href="#">www.blogdoautor.com</a>
 		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-		                <h4><img src="" /> Autor Dois</h4><br />
+		                <h4><img src="" /> Autor Dois</h4>
 		                <a href="#">www.blogdoautor.com</a>
 		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-		                <h4><img src="" /> Autor Três</h4><br />
+		                <h4><img src="" /> Autor Três</h4>
 		                <a href="#">www.blogdoautor.com</a>
 		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 		            </li>

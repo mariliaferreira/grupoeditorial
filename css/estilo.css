@@ -6,6 +6,19 @@ body{
     outline: 0;
 }
 
+h1{
+	text-align: center;
+	color: #114680;
+	font-family: 'brandon_grotesqueblack';
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+h4{
+	margin: 0;
+	font-size: 1.2em;
+}
+
 
 /* ---------- WEBFONTES ---------- */
 
@@ -1000,28 +1013,51 @@ footer ul li a:hover, .texto-direito-bloco a:hover{
 	margin-top: 15%;
 }
 
+.breadcrumb{
+	color: #114680;
+}
+
 .breadcrumb ul {
 	display: inline;
 	margin-left: 8%;
+	font-family: 'proxima_novaregular';
 }
 
 .breadcrumb ul li{
 	display: inline;
-	color: #114680;
 }
 
 .breadcrumb ul li a{
-	text-decoration: none;
 	color: #114680;
+	margin: 0;
+	color: #6786a9;
+	text-decoration: none;
 }
 
-h1{
-	text-align: center;
+.breadcrumb ul li a:hover{
 	color: #114680;
-	font-family: 'brandon_grotesqueblack';
-	text-transform: uppercase;
-	letter-spacing: 10px;
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
+
+.breadcrumb ul li:last-of-type{
+	color: #114680;
+	font-weight: bold;
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.tab-sobre-autor a{
+	margin: 0;
+	color: #6786a9;
+	text-decoration: none;
+}
+
+
 
 .tag{
 	text-align: center;
@@ -1100,7 +1136,7 @@ h1{
 
 .container-livro{
 	margin: 0 auto;
-	margin-top: 4%;
+	margin-top: 3%;
 	width: 75%;
 	height: 800px;
 	/*background-color: #d4d2d2;*/
@@ -1169,7 +1205,7 @@ ul#tab {
 ul#tab li {
 	display: none;
 	/*padding: 30px;*/
-	padding: 0 30px 30px 30px;
+	padding: 0 30px 0 30px;
 }
 
 ul#tab li.active {
@@ -1240,10 +1276,11 @@ ul#tab li h3{
 }
 
 .calltoaction-comprar{
-	width: 80%;
-	padding: 20px 40px;
+	width: 100%;
 	float: right;
 	border-bottom: 1px solid #eae9e9;
+	margin-top: 10%;
+	padding: 0 30px 30px 30px;
 }
 
 .calltoaction-comprar span{
@@ -1251,12 +1288,17 @@ ul#tab li h3{
 	font-size: 2.0em;
 	width: 50%;
 	text-align: center;
-	padding: 1% 5%;
+	padding: 0;
+	margin-top: 15%;
+	margin-left: 12%;
 	color: #555555;
 	background-color: #f7f5f5;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 5px;
 }
 
 .calltoaction-comprar button{
@@ -1268,10 +1310,10 @@ ul#tab li h3{
 	padding: 3% 3%;
 	text-align: center;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-	margin-top: 5%;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	float: right;
 }
 
 .calltoaction-comprar button:active{
@@ -1292,7 +1334,6 @@ ul#tab li h3{
 	width: 80%;
 	padding: 20px 40px;
 	float: right;
-	border-bottom: 1px solid #eae9e9;
 }
 
 .frete-prazo span{
@@ -1320,7 +1361,7 @@ ul#tab li h3{
 	border: none;
 	padding: 5px;
 	background-color: #d9d9d9;
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 	font-family: 'proxima_novaregular', sans-serif;
 	-webkit-transform: translate3d(12%, 0, 0); 
 	transform: translate3d(12%, 0, 0);
@@ -1349,6 +1390,32 @@ ul#tab li h3{
 :-ms-input-placeholder {  
    font-family: 'proxima_novaregular'; 
 }
+
+.tab-sobre-autor a{
+	margin: 0;
+	color: #6786a9;
+	text-decoration: none;
+}
+
+.tab-sobre-autor a:hover{
+	color: #114680;
+	font-weight: bold;
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.tab-sobre-autor p{
+	margin: 0;
+	padding: 0;
+}
+
+.tab-sobre-autor h4{
+	margin-top: 5%;
+}
+
+
 
 
 
