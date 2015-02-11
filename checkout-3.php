@@ -57,45 +57,48 @@
 		?>
 
 		<div class="checkout-box">
-			<label>Qual a sua forma de pagamento?</label><br />
-			<form action="" class="input-radio-button">
-				<input type="radio" name="forma-pagamento" value="pessoa-fisica">Boleto Bancário </input>
-				<input type="radio" name="forma-pagamento" value="pessoa-juridica">Cartão de Crédito </input>
-			</form>
+
+			<div class="div-input">
+				<label>Qual a sua forma de pagamento?</label><br />
+				<form action="" class="input-radio-button">
+					<input type="radio" name="forma-pagamento" value="pessoa-fisica">Boleto Bancário </input>
+					<input type="radio" name="forma-pagamento" value="pessoa-juridica">Cartão de Crédito </input>
+				</form>
 
 
-		<div class="pagamento-cartao-de-credito">
-			<label>Cartão de Crédito</label><br />
-			<select>
-				<option value="volvo">Mastercard</option>
-				<option value="saab">Visa</option>
-				<option value="opel">American Express</option>
-			</select><br />
-			<label>Nome</label> (mesmo impresso no cartão)<br />
-			<input placeholder="" type="text" class="input-texto"></input><br />
-			<label>Validade</label> (impresso na frente do cartão)<br />
-			<select>
-				<option value="mes01">01</option>
-				<option value="mes02">02</option>
-				<option value="mes03">03</option>
-			</select> /
-			<select>
-				<option value="ano13">13</option>
-				<option value="ano14">14</option>
-				<option value="ano15">15</option>
-			</select><br />
-			<label>Código de Segurança</label> (impresso no verso do cartão)<br />
-			<input placeholder="" type="text" class="input-texto"></input><br />
-			<label>Parcelar em</label> (para compras acima de R$50,00)<br />
-			<select>
-				<option value="1vez">1 vez</option>
-				<option value="2vezes">2 vezes</option>
-				<option value="3vezes">3 vezes</option>
-			</select>
-		</div>
+			<div class="pagamento-cartao-de-credito">
+				<label>Cartão de Crédito</label><br />
+				<select>
+					<option value="volvo">Mastercard</option>
+					<option value="saab">Visa</option>
+					<option value="opel">American Express</option>
+				</select><br />
+				<label>Nome</label> (mesmo impresso no cartão)<br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>Validade</label> (impresso na frente do cartão)<br />
+				<select>
+					<option value="mes01">01</option>
+					<option value="mes02">02</option>
+					<option value="mes03">03</option>
+				</select> /
+				<select>
+					<option value="ano13">13</option>
+					<option value="ano14">14</option>
+					<option value="ano15">15</option>
+				</select><br />
+				<label>Código de Segurança</label> (impresso no verso do cartão)<br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>Parcelar em</label> (para compras acima de R$50,00)<br />
+				<select>
+					<option value="1vez">1 vez</option>
+					<option value="2vezes">2 vezes</option>
+					<option value="3vezes">3 vezes</option>
+				</select>
+			</div>
 
-		<div class="pagamento-boleto">
-			<button>Imprimir Boleto</button> ??
+			<div class="pagamento-boleto">
+				<button>Imprimir Boleto</button> ??
+			</div>
 		</div>
 			
 			<button>CONTINUAR PARA ENDEREÇO</button>

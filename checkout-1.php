@@ -45,31 +45,33 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Checkout</a></li>
+					<li><a href="">Finalizar Compra</a></li>
 				</ul>
 			</div>
 		</div>
 
-		<h1>checkout</h1>
+		<h1>finalizar compra</h1>
 
 		<?php
 			require('componentes/passos-checkout.php');
 		?>
 
 		<div class="checkout-box">
-			<label>Identificação</label><br />
-			<form action="" class="input-radio-button">
-				<input type="radio" name="cadastro-nacional" value="pessoa-fisica">Pessoa Física </input>
-				<input type="radio" name="cadastro-nacional" value="pessoa-juridica">Pessoa Jurídica </input>
-			</form>
-
-			<label>CPF/CNPJ</label><br />
-			<input placeholder="" type="text" class="input-texto"></input><br />
-			<label>Nome</label><br />
-			<input placeholder="" type="text" class="input-texto"></input><br />
-			<label>Email</label><br />
-			<input placeholder="" type="text" class="input-texto"></input><br />
 			
+			<div class="div-input">
+				<label>Identificação</label><br />
+				<form action="" class="input-radio-button">
+					<input type="radio" name="cadastro-nacional" value="pessoa-fisica">Pessoa Física </input>
+					<input type="radio" name="cadastro-nacional" value="pessoa-juridica">Pessoa Jurídica </input>
+				</form>
+
+				<label>CPF/CNPJ</label><br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>Nome</label><br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>Email</label><br />
+				<input placeholder="" type="email" class="input-texto"></input><br />
+			</div>
 			<button>CONTINUAR PARA ENDEREÇO</button>
 			<button class="botao-voltar">VOLTAR</button>
 		</div>

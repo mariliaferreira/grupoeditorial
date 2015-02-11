@@ -1494,7 +1494,7 @@ label{
 }
 
 
-.communication-box input[type="text"], .communication-box input[type="password"], .communication-box input[type="email"]{
+input[type="text"], input[type="password"], input[type="email"]{
     font-family: 'proxima_novaregular';
     color: #717171;
 }
@@ -1593,14 +1593,19 @@ label{
 	font-size: 1.0em;
 	font-family: 'proxima_novalight';
 	color: #09294c;
+	margin-top: 2%;
 }
 
 .input-radio-button input{
-	padding-right: 200px;
+	margin-right: 5%;
 }
 
 .checkout-box form{
 	margin-bottom: 8%;
+}
+
+.checkout-box button{
+	float: right;
 }
 
 .checkout-login{

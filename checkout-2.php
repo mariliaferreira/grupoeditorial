@@ -45,33 +45,35 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Checkout</a></li>
+					<li><a href="">Finalizar Compra</a></li>
 				</ul>
 			</div>
 		</div>
 
-		<h1>checkout</h1>
+		<h1>finalizar compra</h1>
 
 		<?php
 			require('componentes/passos-checkout.php');
 		?>
 
 		<div class="checkout-box">
+			<div class="div-input">
 			
-			<label>CEP</label><br />
-			<input placeholder="" type="text" class="input-texto"></input><br />
-			<label>Endereço</label><br />
-			<input placeholder="" type="text" class="input-texto"></input><br />
-			<label>Número</label> 
-			<input placeholder="" type="text" class="input-texto"></input> 
-			<label>Complemento</label> 
-			<input placeholder="" type="text" class="input-texto"></input> 
-			<label>Bairro</label><br />
-			<input placeholder="" type="text" class="input-texto"></input><br />
-			<label>Estado</label><br />
-			<input placeholder="" type="text" class="input-texto"></input><br />
-			<label>Cidade</label><br />
-			<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>CEP</label><br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>Endereço</label><br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>Número</label> 
+				<input placeholder="" type="text" class="input-texto"></input> 
+				<label>Complemento</label> 
+				<input placeholder="" type="text" class="input-texto"></input> 
+				<label>Bairro</label><br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>Estado</label><br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>Cidade</label><br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+			</div>
 			
 			<button>CONTINUAR PARA ENDEREÇO</button>
 			<button class="botao-voltar">VOLTAR</button>
