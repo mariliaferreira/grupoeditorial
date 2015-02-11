@@ -56,26 +56,47 @@
 			</div>
 
 			<div>
-				<p>Livros sobre<br />
+				<p>Revistas sobre<br />
 					Tag 1, Tag 2...
 				</p>
 			</div>
-
 
 		</div>
 
 
 		<div class="revistas">
-			<div class="">
+			<div class="revista-1">
+				<img src="" />
+				<div class="texto-revista">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<a href="">+</a>
+				</div>
 			</div>
 
-			<div>
+			<div class="revista-2">
+				<img src="" />
+				<div class="texto-revista">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<a href="">+</a>
+				</div>
+			</div>
+
+			<div class="revista-3">
+				<img src="" />
+				<div class="texto-revista">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<a href="">+</a>
+				</div>
+			</div>
+
+			<div class="revista-4">
+				<img src="" />
+				<div class="texto-revista">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<a href="">+</a>
+				</div>
 			</div>
 		</div>
-
-
-
-
 
 
 		

@@ -54,18 +54,20 @@
 			<img src="img/icone-livro.png" />
 			<h1>cadastro</h1>
 			
-			<label>Nome</label><br />
-			<input placeholder="" type="text"></input><br />
-			<label>Email</label><br />
-			<input placeholder="" type="text"></input><br />
-			<label>Senha</label><br />
-			<input placeholder="" type="text"></input><br />
+			<div class="div-input">
+				<label>Nome</label><br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>Email</label><br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+				<label>Senha</label><br />
+				<input placeholder="" type="text" class="input-texto"></input><br />
+			</div>
 			
-			<button>Criar minha conta</button>
-			<button><i class="fa fa-facebook-official"></i> Login com Facebook</button>
-
+			<button class="botao-communication-box">Criar minha conta</button><br />
+			<button class="botao-communication-box"><i class="fa fa-facebook-official"></i> Login com Facebook</button>
+			<br />
 			
-			<a href="">Não tenho conta ainda</a>
+			<a href="" class="usuario-sem-conta-calltoaction">Não tenho conta ainda</a>
 		
 		</div>
 
