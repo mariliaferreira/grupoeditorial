@@ -58,12 +58,13 @@
 				<label>Nome</label><br />
 				<input placeholder="" type="text" class="input-texto"></input><br />
 				<label>Email</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
+				<input placeholder="" type="email" class="input-texto"></input><br />
 				<label>Senha</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
+				<input placeholder="" type="password" class="input-texto"></input><br />
 			</div>
 			
 			<button class="botao-communication-box">Criar minha conta</button><br />
+			<span class="small-grey">ou</span><br />
 			<button class="botao-communication-box"><i class="fa fa-facebook-official"></i> Login com Facebook</button>
 			<br />
 			

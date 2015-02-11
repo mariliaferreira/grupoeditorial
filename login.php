@@ -36,7 +36,6 @@
 
 
 	<body>
-
 		<?php
 		require('componentes/cabecalho.php');
 		?>
@@ -54,16 +53,19 @@
 			<img src="img/icone-livro.png" />
 			<h1>login</h1>
 			
-			<label>Email</label><br />
-			<input placeholder="" type="text"></input><br />
-			<label>Senha</label><br />
-			<input placeholder="" type="text"></input><br />
-			<a href="" class="esqueci-senha">Esqueci minha senha</a><br />
-			<button>Login</button>
-			<button><i class="fa fa-facebook-official"></i> Login com Facebook</button>
-
+			<div class="div-input">
+				<label>Email</label><br />
+				<input placeholder="" type="email" class="input-texto"></input><br />
+				<label>Senha</label><br />
+				<input placeholder="" type="password" class="input-texto"></input><br />
+			</div>
 			
-			<a href="">Não tenho conta ainda</a>
+			<button class="botao-communication-box">Criar minha conta</button><br />
+			<span class="small-grey">ou</span><br />
+			<button class="botao-communication-box"><i class="fa fa-facebook-official"></i> Login com Facebook</button>
+			<br />
+			
+			<a href="" class="usuario-sem-conta-calltoaction">Não tenho conta ainda</a>
 		
 		</div>
 

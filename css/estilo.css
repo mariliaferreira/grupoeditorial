@@ -1494,8 +1494,9 @@ label{
 }
 
 
-.communication input[type="text"]{
+.communication-box input[type="text"], .communication-box input[type="password"], .communication-box input[type="email"]{
     font-family: 'proxima_novaregular';
+    color: #717171;
 }
 
 .communication-box button, .checkout-box button{
@@ -1513,10 +1514,15 @@ label{
 	text-transform: uppercase;
 }
 
-
+.small-grey{
+	font-family: 'proxima_novaregular';
+    color: #717171;
+    font-size: 0.8em;
+}
 
 .botao-communication-box{
-	margin-bottom: 10%;
+	margin-bottom: 5%;
+	margin-top: 5%;
 }
 
 .checkout-box button{
