@@ -1582,7 +1582,7 @@ input[type="text"], input[type="password"], input[type="email"]{
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	text-transform: uppercase;
-	background-color: #1b3e65;
+	
 	font-size: 1em;
 	margin: 2% 2%;
 }
@@ -1769,6 +1769,7 @@ progress[value]::-webkit-progress-value::after {
 
 .meu-carrinho table{
 	width: 100%;
+	margin-bottom: 5%;
 }
 
 .meu-carrinho table tr{
@@ -1835,7 +1836,7 @@ progress[value]::-webkit-progress-value::after {
 
 .finalizar-compra{
 	float: right;
-	
+	background-color: #1b3e65;
 }
 
 
