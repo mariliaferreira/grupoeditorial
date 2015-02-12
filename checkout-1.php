@@ -57,7 +57,6 @@
 		?>
 
 		<div class="checkout-box">
-			
 			<div class="div-input">
 				<label>Identificação</label><br />
 				<form action="" class="input-radio-button">
@@ -72,11 +71,10 @@
 				<label>Email</label><br />
 				<input placeholder="" type="email" class="input-texto"></input><br />
 			</div>
-			<button>CONTINUAR PARA ENDEREÇO</button>
+			<button class="botao-continuar">CONTINUAR PARA ENDEREÇO</button>
 			<button class="botao-voltar">VOLTAR</button>
 		</div>
 
-		
 
 		<?php
 		require('componentes/footer.php');

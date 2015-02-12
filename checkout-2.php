@@ -63,19 +63,33 @@
 				<input placeholder="" type="text" class="input-texto"></input><br />
 				<label>Endereço</label><br />
 				<input placeholder="" type="text" class="input-texto"></input><br />
-				<label>Número</label> 
-				<input placeholder="" type="text" class="input-texto"></input> 
-				<label>Complemento</label> 
-				<input placeholder="" type="text" class="input-texto"></input> 
-				<label>Bairro</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
-				<label>Estado</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
+				<div class="div-form-inside">
+					<label class="input-texto-pequeno-2">Número</label> 
+					<input placeholder="" type="text" class="input-texto-pequeno"></input>
+				</div>
+				<div class="div-form-inside">
+					<label class="input-texto-pequeno-2">Complemento</label> 
+					<input placeholder="" type="text" class="input-texto-pequeno"></input>
+				</div>
+
+				<div class="div-form-inside">
+					<label class="input-texto-pequeno-2">Bairro</label> 
+					<input placeholder="" type="text" class="input-texto-pequeno"></input>
+				</div>
+				<div class="div-form-inside">
+					<label class="input-texto-pequeno-2">Estado</label> 
+					<select class="select">
+					  <option value="parana">Paraná</option>
+					  <option value="riograndedosul">Rio Grande do Sul</option>
+					  <option value="santacararina">Santa Catarina</option>
+					  <option value="saopaulo">São Paulo</option>
+					</select>
+				</div>
 				<label>Cidade</label><br />
 				<input placeholder="" type="text" class="input-texto"></input><br />
 			</div>
 			
-			<button>CONTINUAR PARA ENDEREÇO</button>
+			<button class="botao-continuar">CONTINUAR PARA ENDEREÇO</button>
 			<button class="botao-voltar">VOLTAR</button>
 		</div>
 

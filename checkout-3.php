@@ -68,40 +68,37 @@
 
 			<div class="pagamento-cartao-de-credito">
 				<label>Cartão de Crédito</label><br />
-				<select>
+				<select class="select">
 					<option value="volvo">Mastercard</option>
 					<option value="saab">Visa</option>
 					<option value="opel">American Express</option>
 				</select><br />
-				<label>Nome</label> (mesmo impresso no cartão)<br />
+				<label>Nome</label> <span class="small-grey">(mesmo impresso no cartão)</span><br />
 				<input placeholder="" type="text" class="input-texto"></input><br />
-				<label>Validade</label> (impresso na frente do cartão)<br />
-				<select>
+				<label>Validade</label> <span class="small-grey">(impresso na frente do cartão)</span><br />
+				<select class="select">
 					<option value="mes01">01</option>
 					<option value="mes02">02</option>
 					<option value="mes03">03</option>
 				</select> /
-				<select>
+				<select class="select">
 					<option value="ano13">13</option>
 					<option value="ano14">14</option>
 					<option value="ano15">15</option>
 				</select><br />
-				<label>Código de Segurança</label> (impresso no verso do cartão)<br />
+				<label>Código de Segurança</label> <span class="small-grey">(impresso no verso do cartão)</span><br />
 				<input placeholder="" type="text" class="input-texto"></input><br />
-				<label>Parcelar em</label> (para compras acima de R$50,00)<br />
-				<select>
+				<label>Parcelar em</label> <span class="small-grey">(para compras acima de R$50,00)</span><br />
+				<select class="select">
 					<option value="1vez">1 vez</option>
 					<option value="2vezes">2 vezes</option>
 					<option value="3vezes">3 vezes</option>
 				</select>
 			</div>
 
-			<div class="pagamento-boleto">
-				<button>Imprimir Boleto</button> ??
-			</div>
 		</div>
 			
-			<button>CONTINUAR PARA ENDEREÇO</button>
+			<button class="botao-continuar">REALIZAR PAGAMENTO</button>
 			<button class="botao-voltar">VOLTAR</button>
 		</div>
 

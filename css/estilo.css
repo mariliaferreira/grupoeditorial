@@ -1487,10 +1487,45 @@ label{
 	margin-bottom: 10%;
 }
 
-
-
 .input-texto{
 	width: 100%;
+}
+
+.div-form-inside{
+	float: left;
+	width: 50%;
+}
+
+.select{
+	padding: 2% 5%;
+	margin-top: 1%;
+	margin-bottom: 10%;
+	background-color: #eeeded;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #B9C1CA;
+	color: #373737;
+}
+
+.select-chackout2{
+	width: 92%;
+}
+
+.select-chackout3{
+}
+
+.input-texto-pequeno{
+	width: 92%;
+	float: left;
+	margin-right: 8%;
+	margin-top: 5%;
+}
+
+.input-texto-pequeno-2{
+	width: 92%;
+	float: left;
+	margin-right: 8%;
 }
 
 
@@ -1499,7 +1534,7 @@ input[type="text"], input[type="password"], input[type="email"]{
     color: #717171;
 }
 
-.communication-box button, .checkout-box button{
+.communication-box button{
 	background-color: #114680;
 	border: none;
 	color: #fff;
@@ -1517,16 +1552,12 @@ input[type="text"], input[type="password"], input[type="email"]{
 .small-grey{
 	font-family: 'proxima_novaregular';
     color: #717171;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .botao-communication-box{
 	margin-bottom: 5%;
 	margin-top: 5%;
-}
-
-.checkout-box button{
-	float: right;
 }
 
 .checkout-box form input{
@@ -1572,21 +1603,35 @@ input[type="text"], input[type="password"], input[type="email"]{
 	color: #717171;
 }
 
-.botao-voltar{
-	float: left;
-	margin-left: 0;
-	background-color: #dfdfdf;
+.botao-voltar, .botao-continuar{
+	background-color: #114680;
 	border: none;
 	color: #fff;
 	font-family: 'proxima_novalight';
 	font-size: 1.0em;
-	padding: 5% 5%;
+	padding: 3% 5%;
 	text-align: center;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	text-transform: uppercase;
+}
+
+
+.botao-voltar{
+	float: left;
+	background-color: #6a8cb1;
+}
+
+.botao-voltar:active, .botao-continuar:active{
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.5) inset;
+	border: none;
+}
+
+
+.botao-continuar{
+	float: right;
 }
 
 .input-radio-button{
@@ -1604,9 +1649,7 @@ input[type="text"], input[type="password"], input[type="email"]{
 	margin-bottom: 8%;
 }
 
-.checkout-box button{
-	float: right;
-}
+
 
 .checkout-login{
 	width: 100%;
@@ -1623,6 +1666,7 @@ input[type="text"], input[type="password"], input[type="email"]{
 	margin-left: 18%;
 	float: left;
 }
+
 
 .checkout-login-primeiro-acesso{
 	width: 30%;
@@ -1641,7 +1685,6 @@ progress[value]::-webkit-progress-value::after {
   top: 7px;
   background-color: white;
 }
-
 
 /* ---------- MEDIA QUERIES ------------ */
 
