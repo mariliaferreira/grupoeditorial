@@ -61,40 +61,48 @@
 
 		</div>
 
-		<div class="resenhas">
-			<div class="resenha-1">
-				<img src="" />
-				<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
-				<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
-				<img src="" />
-			</div>
-		</div>
+		<div class="total-resenhas">
 
-		<div class="resenhas">
-			<div class="resenha-1">
-				<img src="" />
-				<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
-				<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
-				<img src="" />
+			<div class="resenhas">
+				<div class="detalhe-autor-resenha">
+					<h2>Elogio à Simplicidade</h2>
+					<!-- <img src="" /> -->
+					<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
+					<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
+					<!-- <img src="" /> -->
+				</div>
 			</div>
-		</div>
 
-		<div class="resenhas">
-			<div class="resenha-1">
-				<img src="" />
-				<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
-				<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
-				<img src="" />
+			<div class="resenhas">
+				<div class="detalhe-autor-resenha">
+					<h2>Elogio à Simplicidade</h2>
+					<!-- <img src="" /> -->
+					<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
+					<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
+					<!-- <img src="" /> -->
+				</div>
 			</div>
-		</div>
 
-		<div class="resenhas">
-			<div class="resenha-1">
-				<img src="" />
-				<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
-				<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
-				<img src="" />
+			<div class="resenhas">
+				<div class="detalhe-autor-resenha">
+					<h2>Elogio à Simplicidade</h2>
+					<!-- <img src="" /> -->
+					<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
+					<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
+					<!-- <img src="" /> -->
+				</div>
 			</div>
+
+			<div class="resenhas">
+				<div class="detalhe-autor-resenha">
+					<h2>Elogio à Simplicidade</h2>
+					<!-- <img src="" /> -->
+					<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
+					<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
+					<!-- <img src="" /> -->
+				</div>
+			</div>
+
 		</div>
 				
 		<?php

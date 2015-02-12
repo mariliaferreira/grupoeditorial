@@ -45,7 +45,7 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Resenha XXX</a></li>
+					<li><a href="">Elogio à Simplicidade</a></li>
 				</ul>
 			</div>
 		</div>
