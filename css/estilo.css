@@ -117,7 +117,7 @@ h4{
 	font-size: 1.2em;
 	font-family: 'proxima_novaregular';
 	text-align: center;
-	color: #717171;
+	color: #1b3e65;
 }
 
 a{
@@ -1594,10 +1594,12 @@ input[type="text"], input[type="password"], input[type="email"]{
 	margin: 0;
 }
 
-.communication-box button:active, .communication-box button:active{
+.communication-box button:active, .communication-box button:active, .checkout-login-conta button:active, .checkout-login-primeiro-acesso button:active{
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.5) inset;
 	border: none;
 }
+
+
 
 .checkout-start{
 	text-align: center;
