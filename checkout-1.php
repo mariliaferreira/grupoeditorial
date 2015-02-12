@@ -71,8 +71,8 @@
 				<label>Email</label><br />
 				<input placeholder="" type="email" class="input-texto"></input><br />
 			</div>
-			<button class="botao-continuar">CONTINUAR PARA ENDEREÇO</button>
-			<button class="botao-voltar">VOLTAR</button>
+			<button class="botao-continuar">CONTINUAR PARA ENDEREÇO <i class="fa fa-chevron-right"></i></button>
+			<!-- <button class="botao-voltar"><i class="fa fa-chevron-left"></i> VOLTAR</button> -->
 		</div>
 
 

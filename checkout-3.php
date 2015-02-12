@@ -98,8 +98,8 @@
 
 		</div>
 			
-			<button class="botao-continuar">REALIZAR PAGAMENTO</button>
-			<button class="botao-voltar">VOLTAR</button>
+			<button class="botao-continuar"><i class="fa fa-check-circle"></i> REALIZAR PAGAMENTO</button>
+			<button class="botao-voltar"><i class="fa fa-chevron-left"></i> VOLTAR</button>
 		</div>
 
 		
