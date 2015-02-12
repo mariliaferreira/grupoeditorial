@@ -1585,7 +1585,6 @@ input[type="text"], input[type="password"], input[type="email"]{
 	background-color: #1b3e65;
 	font-size: 1em;
 	margin: 2% 2%;
-	float: right;
 }
 
 .checkout-login-conta button{
@@ -1612,7 +1611,7 @@ input[type="text"], input[type="password"], input[type="email"]{
 	margin: 0;
 }
 
-.communication-box button:active, .communication-box button:active, .checkout-login-conta button:active, .checkout-login-primeiro-acesso button:active{
+.communication-box button:active, .communication-box button:active, .checkout-login-conta button:active, .checkout-login-primeiro-acesso button:active, .meu-carrinho button:active{
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.5) inset;
 	border: none;
 }
@@ -1680,14 +1679,16 @@ input[type="text"], input[type="password"], input[type="email"]{
 }
 
 
-.botao-voltar{
-	float: left;
-	background-color: #6a8cb1;
-}
+
 
 .botao-voltar:active, .botao-continuar:active{
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.5) inset;
 	border: none;
+}
+
+.botao-voltar{
+	float: left;
+	background-color: #6a8cb1;
 }
 
 
@@ -1763,6 +1764,7 @@ progress[value]::-webkit-progress-value::after {
 .meu-carrinho{
 	margin: 0 auto;
 	width: 70%;
+	margin-bottom: 5%;
 }
 
 .meu-carrinho table{
@@ -1793,7 +1795,7 @@ progress[value]::-webkit-progress-value::after {
 }
 
 .meu-carrinho table tr:last-child{
-	background-color: #e7e7e7;
+	background-color: #f4f4f4;
 }
 
 .coluna-1{
@@ -1823,10 +1825,18 @@ progress[value]::-webkit-progress-value::after {
 	font-weight: bold;
 	color: #1b3e65;
 	font-size: 1.2em;
-	font-family: 'brandon_grotesqueblack';
+	font-family: 'brandon_grotesqueblack'; 
 }
 
+.continuar-comprando{
+	float: left;
+	background-color: #6a8cb1;
+}
 
+.finalizar-compra{
+	float: right;
+	
+}
 
 
 /* ---------- MEDIA QUERIES ------------ */

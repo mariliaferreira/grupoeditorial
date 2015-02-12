@@ -53,7 +53,7 @@
 		<h1>meu carrinho</h1>
 
 		<div class="meu-carrinho">
-			<button>Finalizar compra</button>
+			<button class="finalizar-compra"><i class="fa fa-check-circle"></i> Finalizar compra</button>
 			<table>
 				<tr>
 					<td class="coluna-1">X</td>
@@ -115,8 +115,8 @@
 				</tr>
 			</table>
 
-			<button>finalizar compra</button>
-			<button> < continuar comprando</button>
+			<button class="finalizar-compra"><i class="fa fa-check-circle"></i> finalizar compra</button>
+			<button class="continuar-comprando"> <i class="fa fa-chevron-left"></i> continuar comprando</button>
 			
 
 			<div class="formas-de-pagamento">
