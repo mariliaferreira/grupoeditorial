@@ -1592,7 +1592,7 @@ input[type="text"], input[type="password"], input[type="email"]{
 }
 
 .passo-validated{
-	color: #ccd600;
+	color: #cac8c8;
 }
 
 .passo-active{
@@ -1600,7 +1600,7 @@ input[type="text"], input[type="password"], input[type="email"]{
 }
 
 .passo-open{
-	color: #717171;
+	color: #cac8c8;
 }
 
 .botao-voltar, .botao-continuar{
@@ -1641,9 +1641,24 @@ input[type="text"], input[type="password"], input[type="email"]{
 	margin-top: 2%;
 }
 
-.input-radio-button input{
+.item-radio-button{
 	margin-right: 5%;
 }
+
+input[type=checkbox]:not(old),
+input[type=radio   ]:not(old){
+  width   : 28px;
+  margin-top: 10px;
+  margin-left : 20px;
+  padding : 10px;
+  opacity : 10;
+}
+
+
+
+
+
+
 
 .checkout-box form{
 	margin-bottom: 8%;

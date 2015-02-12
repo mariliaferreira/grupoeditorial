@@ -45,12 +45,12 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Checkout</a></li>
+					<li><a href="">Finalizar Compra</a></li>
 				</ul>
 			</div>
 		</div>
 
-		<h1>checkout</h1>
+		<h1>finalizar compra</h1>
 
 		<?php
 			require('componentes/passos-checkout.php');
@@ -61,8 +61,8 @@
 			<div class="div-input">
 				<label>Qual a sua forma de pagamento?</label><br />
 				<form action="" class="input-radio-button">
-					<input type="radio" name="forma-pagamento" value="pessoa-fisica">Boleto Bancário </input>
-					<input type="radio" name="forma-pagamento" value="pessoa-juridica">Cartão de Crédito </input>
+					<input type="radio" name="forma-pagamento" value="pessoa-fisica" class="item-radio-button">Boleto Bancário </input>
+					<input type="radio" name="forma-pagamento" value="pessoa-juridica" class="item-radio-button">Cartão de Crédito </input>
 				</form>
 
 
