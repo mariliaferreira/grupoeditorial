@@ -64,9 +64,7 @@
 					<button class="botao-communication-box login-normal">Login</button><br />
 					<span class="small-grey">ou</span><br />
 					<button class="botao-communication-box login-facebook"><i class="fa fa-facebook-square"></i> Login com Facebook</button>
-					<br />
 					
-					<a href="" class="usuario-sem-conta-calltoaction">Não tenho conta ainda</a>
 			</div>
 
 			<div class="checkout-login-primeiro-acesso">

@@ -117,6 +117,7 @@ h4{
 	font-size: 1.2em;
 	font-family: 'proxima_novaregular';
 	text-align: center;
+	color: #717171;
 }
 
 a{
@@ -1504,6 +1505,10 @@ label{
 	margin-bottom: 10%;
 }
 
+.checkout-login-conta input{
+	background-color: #fff;
+}
+
 .input-texto{
 	width: 100%;
 }
@@ -1563,6 +1568,14 @@ input[type="text"], input[type="password"], input[type="email"]{
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	text-transform: uppercase;
+}
+
+.checkout-login-conta button{
+	width: 80%;
+}
+
+.checkout-login-primeiro-acesso button{
+	width: 80%;
 }
 
 .small-grey{
@@ -1698,17 +1711,17 @@ input[type=radio   ]:not(old){
 }
 
 .checkout-login-conta{
-	width: 30%;
-	height: 200px;
-	margin-left: 18%;
+	width: 25%;
+	margin-left: 23%;
 	float: left;
+	padding-right: 3%;
+	border-right: 1px solid #717171;
 }
 
 
 .checkout-login-primeiro-acesso{
-	width: 30%;
+	width: 25%;
 	height: 200px;
-	margin-right: 18%;
 	float: left;
 }
 
