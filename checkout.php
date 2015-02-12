@@ -50,25 +50,31 @@
 			</div>
 		</div>
 
-		<h1>finalizar compra</h1>
+		<h1>login</h1>
 
-		<div class="checkout-login">
+		<div class="checkout-start">
 			<div class="checkout-login-conta">
-				<h4>Já tenho uma conta</h4>
-				<label>Email</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
-				<label>Senha</label><br />
-				<input placeholder="" type="password" class="input-texto"></input><br />
-
-				<a href="">Esqueci minha senha</a>
-				<button>Login</button>
-				<button><i class="fa fa-facebook-official"></i> Login com Facebook</button>
+					<div class="div-input">
+						<h4>Já tenho uma conta</h4>
+						<label>Email</label><br />
+						<input placeholder="" type="email" class="input-texto"></input><br />
+						<label>Senha</label><br />
+						<input placeholder="" type="password" class="input-texto"></input><br />
+					</div>
+					<button class="botao-communication-box login-normal">Login</button><br />
+					<span class="small-grey">ou</span><br />
+					<button class="botao-communication-box login-facebook"><i class="fa fa-facebook-square"></i> Login com Facebook</button>
+					<br />
+					
+					<a href="" class="usuario-sem-conta-calltoaction">Não tenho conta ainda</a>
 			</div>
 
 			<div class="checkout-login-primeiro-acesso">
-				<h4>Primeira vez na loja do Grupo Editorial PUCPR?</h4>
-				<button>Login</button>
-				<button><i class="fa fa-facebook-official"></i> Login com Facebook</button>
+				<h4>Primeira vez na loja do Editoriais PUCPR?</h4>
+				<button class="botao-communication-box login-normal">Login</button><br />
+				<span class="small-grey">ou</span><br />
+				<button class="botao-communication-box login-facebook"><i class="fa fa-facebook-square"></i> Login com Facebook</button>
+				<br />
 			</div>
 		</div>
 

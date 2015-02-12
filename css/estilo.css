@@ -113,8 +113,10 @@ h1{
 }
 
 h4{
-	margin: 0;
+	margin: 5% 0;
 	font-size: 1.2em;
+	font-family: 'proxima_novaregular';
+	text-align: center;
 }
 
 a{
@@ -1459,13 +1461,28 @@ ul#tab li h3{
 	width: 35%;
 }
 
+.checkout-start{
+	width: 100%;
+	height: 500px;
+}
+
+.checkout-login-conta{
+	width: 40%;
+	margin: 0 2%;
+	height: auto;
+}
+
+.checkout-login-primeiro-acesso{
+	width: 30%;
+}
+
 .communication-box img{
 	display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.communication-box label, .checkout-box label{
+.communication-box label, .checkout-box label, .checkout-login-conta label{
 	font-family: 'proxima_novaregular'; 
 	color: #09294c;
 }
@@ -1478,7 +1495,7 @@ label{
 	text-align: left;
 }
 
-.communication-box input, .checkout-box input{
+.communication-box input, .checkout-box input, .checkout-login-conta input{
 	border-bottom: 1px solid #B9C1CA;
 	background-color: #f6f6f6;
 	border-top: none;
@@ -1534,8 +1551,7 @@ input[type="text"], input[type="password"], input[type="email"]{
     color: #717171;
 }
 
-.communication-box button{
-	background-color: #114680;
+.communication-box button, .checkout-login-conta button, .checkout-login-primeiro-acesso button{
 	border: none;
 	color: #fff;
 	font-family: 'proxima_novalight';
@@ -1558,7 +1574,7 @@ input[type="text"], input[type="password"], input[type="email"]{
 .botao-communication-box{
 	margin-bottom: 5%;
 	margin-top: 5%;
-}
+} 
 
 .checkout-box form input{
 	padding: 0;
@@ -1568,6 +1584,10 @@ input[type="text"], input[type="password"], input[type="email"]{
 .communication-box button:active, .communication-box button:active{
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.5) inset;
 	border: none;
+}
+
+.checkout-start{
+	text-align: center;
 }
 
 .esqueci-senha{
@@ -1601,6 +1621,14 @@ input[type="text"], input[type="password"], input[type="email"]{
 
 .passo-open{
 	color: #cac8c8;
+}
+
+.login-normal{
+	background-color: #114680;
+}
+
+.login-facebook{
+	background-color: #3c5998;
 }
 
 .botao-voltar, .botao-continuar{
@@ -1655,15 +1683,9 @@ input[type=radio   ]:not(old){
 }
 
 
-
-
-
-
-
 .checkout-box form{
 	margin-bottom: 8%;
 }
-
 
 
 .checkout-login{

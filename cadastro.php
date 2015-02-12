@@ -63,9 +63,9 @@
 				<input placeholder="" type="password" class="input-texto"></input><br />
 			</div>
 			
-			<button class="botao-communication-box">Criar minha conta</button><br />
+			<button class="botao-communication-box login-normal">Criar minha conta</button><br />
 			<span class="small-grey">ou</span><br />
-			<button class="botao-communication-box"><i class="fa fa-facebook-official"></i> Login com Facebook</button>
+			<button class="botao-communication-box login-facebook"><i class="fa fa-facebook-square"></i> Login com Facebook</button>
 			<br />
 			
 			<a href="" class="usuario-sem-conta-calltoaction">Não tenho conta ainda</a>
