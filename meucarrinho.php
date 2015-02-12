@@ -45,7 +45,7 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Finalizar Compra</a></li>
+					<li><a href="">Meu Carrinho</a></li>
 				</ul>
 			</div>
 		</div>
@@ -56,40 +56,31 @@
 			<button>Finalizar compra</button>
 			<table>
 				<tr>
+					<td class="coluna-1">X</td>
+					<td class="coluna-2"><img src="img/livro-exemplo.jpg" /></td>
+					<td class="coluna-3">Livro Champagnat</td>
+					<td class="coluna-4">
+						<input placeholder="" type="number"></input>					
+					</td>
+					<td class="coluna-5">R$75,00</td>
+				</tr>
+
+				<tr>
 					<td>X</td>
-					<td>imagem</td>
+					<td><img src="img/livro-exemplo.jpg" /></td>
 					<td>Livro Champagnat</td>
-					<td><select>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-						</select>
+					<td>
+						<input placeholder="" type="number"></input>
 					</td>
 					<td>R$75,00</td>
 				</tr>
 
 				<tr>
 					<td>X</td>
-					<td>imagem</td>
+					<td><img src="img/livro-exemplo.jpg" /></td>
 					<td>Livro Champagnat</td>
-					<td><select>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-						</select>
-					</td>
-					<td>R$75,00</td>
-				</tr>
-
-				<tr>
-					<td>X</td>
-					<td>imagem</td>
-					<td>Livro Champagnat</td>
-					<td><select>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-						</select>
+					<td>
+						<input placeholder="" type="number"></input>
 					</td>
 					<td>R$75,00</td>
 				</tr>
@@ -107,20 +98,26 @@
 					<td> </td>
 					<td> </td>
 					<td>Frete</td>
-					<td>R$7,50</td> 
+					<td>
+						<select>
+						  <option value="pac">PAC (R$7,50)</option>
+						  <option value="sedex">SEDEX (R$15,00)</option>
+						</select>
+					</td> 
 				</tr>
 
 				<tr>
 					<td> </td>
 					<td> </td>
 					<td> </td>
-					<td>Total</td>
-					<td>R$232,50</td> 
+					<td class="total-valor">Total</td>
+					<td class="total-valor">R$232,50</td> 
 				</tr>
 			</table>
 
 			<button>finalizar compra</button>
 			<button> < continuar comprando</button>
+			
 
 			<div class="formas-de-pagamento">
 			</div>

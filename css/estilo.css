@@ -973,7 +973,7 @@ footer{
 }
 
 footer ul:first-child{
-	margin-left: 7%;
+	margin-left: 10%;
 }
 
 footer ul{
@@ -1570,6 +1570,24 @@ input[type="text"], input[type="password"], input[type="email"]{
 	text-transform: uppercase;
 }
 
+.meu-carrinho button{
+	border: none;
+	color: #fff;
+	font-family: 'proxima_novalight';
+	font-size: 1.0em;
+	padding: 2% 4%;
+	text-align: center;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	background-color: #1b3e65;
+	font-size: 1em;
+	margin: 2% 2%;
+	float: right;
+}
+
 .checkout-login-conta button{
 	width: 80%;
 }
@@ -1737,6 +1755,79 @@ progress[value]::-webkit-progress-value::after {
   top: 7px;
   background-color: white;
 }
+
+
+
+/* ---------- MEU CARRINHO ------------ */
+
+.meu-carrinho{
+	margin: 0 auto;
+	width: 70%;
+}
+
+.meu-carrinho table{
+	width: 100%;
+}
+
+.meu-carrinho table tr{
+	border-top: 1px solid #d7d7d7;
+}
+
+.meu-carrinho table tr td{
+	padding: 2% 2%;
+	font-family: 'proxima_novalight';
+	color: #4f4f4f;
+}
+
+.meu-carrinho table tr td input{
+	width: 35%;
+}
+
+.meu-carrinho table tr td img{
+	width: 80px;
+}
+
+.meu-carrinho table tr td:first-child{
+	color: #fb5d3d;
+	font-family: 'proxima_novabold';
+}
+
+.meu-carrinho table tr:last-child{
+	background-color: #e7e7e7;
+}
+
+.coluna-1{
+	width: 5%;
+}
+
+.coluna-2{
+	width: 20%;
+}
+
+
+.coluna-3{
+	width: 40%;
+}
+
+
+.coluna-4{
+	width: 15%;
+}
+
+
+.coluna-5{
+	width: 15%;
+}
+
+.total-valor{
+	font-weight: bold;
+	color: #1b3e65;
+	font-size: 1.2em;
+	font-family: 'brandon_grotesqueblack';
+}
+
+
+
 
 /* ---------- MEDIA QUERIES ------------ */
 
