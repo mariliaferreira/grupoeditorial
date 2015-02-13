@@ -34,21 +34,24 @@ class produto
 					</li>';
 
 			/* substituir por:
+			(tirar linha preço promoção para produtos que não estão em promoção)
 
 				<li>
 					<a href="../grupoeditorial/livros-detalhe.php">
 						<div>
+							<section class="selo-livro pucpress-selo"></section>
 							<img src="img/teste-livro-1.jpg" />
 						</div>
 						<div>
 							<h6>Título do Livro Título do Livro</h6>
+							<h6 class="preco-promocao"><strike>R$45,00</strike></h6>
 							<h6>R$45,00</h6>
 						</div>
 					</a>
 					<a href="">
 						<span class="add-carrinho">Adicionar ao carrinho</span>
 					</a>
-				</li>
+					</li>
 
 			*/
 			return($sx);

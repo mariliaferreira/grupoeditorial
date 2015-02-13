@@ -8,7 +8,6 @@ $pd = new produto;
 	<li><img src="img/icone-promocao.png" /></li>
 	<li><img src="img/icone-lancamento.png" /></li>
 	<li><img src="img/icone-mais-vendido-ebook.png" /></li>
-	<li><img src="img/icone-mais-vendido-ebook.png" /></li>
 </ul>
 
 <?php
