@@ -956,7 +956,7 @@ p:target {
 	width: calc(100% / 5);
 	margin-right: 5%;
 	margin-bottom: 4%;
-	height: 480px;
+	height: 490px;
 }
 
 .cbp-rfgrid li a,
@@ -1003,6 +1003,8 @@ p:target {
     text-align: center;
     opacity: 1;
 }
+
+
 
 h6{
 	margin: 0px 5px;
@@ -2107,6 +2109,11 @@ progress[value]::-webkit-progress-value::after {
 .champagnat-selo{
 	background-color: #EDB506;
 	background-image: url('../img/selo-champagnat.png');
+}
+
+.preco-promocao{
+	text-align: center;
+	margin-top: 6%;
 }
 
 
