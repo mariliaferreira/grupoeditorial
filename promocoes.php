@@ -36,8 +36,7 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">breadcrumb one</a></li> <span>></span>
-					<li><a href="">breadcrumb two</a></li>
+					<li><a href="">Promoções</a></li>
 				</ul>
 			</div>
 
@@ -55,11 +54,11 @@
 				</ul>
 			</div>
 
-			<div>
+			<!-- <div>
 				<p>Livros sobre<br />
 					Tag 1, Tag 2...
 				</p>
-			</div>
+			</div> -->
 
 
 		</div>

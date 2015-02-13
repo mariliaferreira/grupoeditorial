@@ -36,12 +36,11 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">breadcrumb one</a></li> <span>></span>
-					<li><a href="">breadcrumb two</a></li>
+					<li><a href="">Lançamentos</a></li> 
 				</ul>
 			</div>
 
-			<h1>LANÇAMENTO</h1>
+			<h1>LANÇAMENTOS</h1>
 
 
 			<div class="tag" id="tag-lancamento">
@@ -56,11 +55,11 @@
 				</ul>
 			</div>
 
-			<div>
+			<!-- <div>
 				<p>Livros sobre<br />
 					Tag 1, Tag 2...
 				</p>
-			</div>
+			</div> -->
 
 
 		</div>
