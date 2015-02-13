@@ -932,12 +932,12 @@ p:target {
 }
 
 .cbp-rfgrid {
-	margin: 35px 0 0 0;
+	margin: 0 auto;
 	padding: 0;
 	list-style: none;
 	position: relative;
 	width: 80%;
-	margin-left: 10%;
+	margin-left: 12%;
 }
 
 .cbp-rfgrid li {
@@ -945,12 +945,12 @@ p:target {
 	float: left;
 	overflow: hidden;
 	width: 16.6666667%; /* Fallback */
-	width: -webkit-calc(100% / 6);
-	width: calc(100% / 6);
-	margin-right: 3%;
-	margin-bottom: 3%;
-	height: 300px;
-	background-color: orange;
+	width: -webkit-calc(100% / 5);
+	width: calc(100% / 5);
+	margin-right: 5%;
+	margin-bottom: 4%;
+	
+	height: 480px;
 }
 
 .cbp-rfgrid li a,
@@ -962,18 +962,28 @@ p:target {
 
 .cbp-rfgrid li a img {
 	max-width: 100%;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.cbp-rfgrid li a{
+	font-family: 'proxima_novalight';
+	color: #444444;
+}
+
+.cbp-rfgrid li a:hover{
+	font-family: 'proxima_novalight';
 }
 
 /* Flexbox is used for centering the heading */
-.cbp-rfgrid li a div {
-	position: absolute;
+.cbp-rfgrid li a div:first-child {
+	float: left;
 	width: 100%;
 	height: 100%;
 	/*left: 20px;
 	top: 20px;
 	right: 20px;
 	bottom: 20px;*/
-	background: rgba(71,163,218,0.2);
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -983,13 +993,49 @@ p:target {
 	-ms-align-items: center;
     align-items: center;
     text-align: center;
-    opacity: 0;
-    margin-top: 30%;
+    opacity: 1;
 }
 
-.cbp-rfgrid li a:hover div {
-	opacity: 1;
+h6{
+	margin: 0px 5px;
+	padding: 0;
+	font-size: 1em;
+	text-transform: capitalize;
+	text-align: center;
+
 }
+
+.add-carrinho{
+	float: left;
+	width: 100%;
+	background-color: #114680;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5% 0;
+	color: #fff;
+}
+
+.add-carrinho:hover{
+	font-family: 'proxima_novalight';
+}
+
+.cbp-rfgrid li a div h6:last-child{
+	font-family: 'proxima_novabold';
+	font-size: 1.3em;
+	padding-bottom: 5%;
+}
+
+.cbp-rfgrid li a div:last-child{
+	float: left;
+	background-color: #f5f5f5;
+	padding-top: 5%;
+}
+
+/*.cbp-rfgrid li a:hover div {
+	opacity: 1;
+}*/
 
 .cbp-rfgrid li a div h3 {
 	width: 100%;
@@ -1131,6 +1177,7 @@ footer ul li a:hover, .texto-direito-bloco a:hover{
 
 .tag{
 	text-align: center;
+	margin-bottom: 4%;
 }
 
 .tag ul{
