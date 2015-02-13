@@ -81,7 +81,7 @@
 		                </div>
 
 		                <div class="botoes-acoes-livros">
-			                <a href="#"><span><i class="fa fa-check-circle"></i> Disponível</span> </a>
+			                <a href="#"><span><i class="fa fa-minus-circle indisponivel"></i> Indisponível</span> </a>
 			                <a href="#"><span><i class="fa fa-file-text"></i> Resenha</span> </a>
 			                <a href="#"><span><i class="fa fa-quote-right"></i> Citar livro</span></a>
 			            </div>

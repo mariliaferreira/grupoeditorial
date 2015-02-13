@@ -55,11 +55,11 @@
 				</ul>
 			</div>
 
-			<div>
+			<!-- <div>
 				<p>Ebooks sobre<br />
 					Tag 1, Tag 2...
 				</p>
-			</div>
+			</div> -->
 
 
 		</div>

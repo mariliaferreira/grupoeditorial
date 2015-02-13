@@ -389,7 +389,7 @@ nav a {
 }
 
 nav a:hover{
-	color: #0be34d;
+	color: #E07E27;
 	-webkit-transition: color .25s;
   	-moz-transition: color .25s;
   	-ms-transition: color .25s;
@@ -956,7 +956,7 @@ p:target {
 	width: calc(100% / 5);
 	margin-right: 5%;
 	margin-bottom: 4%;
-	height: 490px;
+	height: 510px;
 }
 
 .cbp-rfgrid li a,
@@ -1265,6 +1265,43 @@ footer ul li a:hover, .texto-direito-bloco a:hover{
     border: 1px solid #cbc91e;
 }
 
+/* tags para quando tag for clicada */
+.tag-clicado-livros{
+	background-color: #ffb637;
+    border: 1px solid #ffb637;
+}
+
+.tag-clicado-ebooks{
+	background-color: #ff681e;
+    border: 1px solid #ff681e;
+}
+
+.tag-clicado-colecoes{
+	background-color: #ba69e4;
+    border: 1px solid #ba69e4;
+}
+
+.tag-clicado-promocoes{
+	background-color: #ef5454;
+    border: 1px solid #ef5454;
+}
+
+.tag-clicado-lancamentos{
+	background-color: #58cbb1;
+    border: 1px solid #58cbb1;
+}
+
+
+.tag-clicado-resenhas{
+	background-color: #d6c58a;
+    border: 1px solid #d6c58a;
+}
+
+.tag-clicado-revistas{
+	background-color: #cbc91e;
+    border: 1px solid #cbc91e;
+}
+
 
 
 
@@ -1417,6 +1454,12 @@ ul#tab li h3{
 
 .botoes-acoes-livros a i {
 	color: #ccd600;
+}
+
+
+
+.indisponivel{
+	color: #d8d8d8;
 }
 
 .calltoaction-comprar{

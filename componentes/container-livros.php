@@ -7,7 +7,7 @@
 								<img src="img/teste-livro-1.jpg" />
 							</div>
 							<div>
-								<h6>Título do Livro Título do Livro</h6>
+								<h6>Título Livro Título Livro Título Livro Título Livro</h6>
 								<h6 class="preco-promocao"><strike>R$45,00</strike></h6>
 								<h6>R$45,00</h6>
 							</div>
