@@ -36,8 +36,7 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">breadcrumb one</a></li> <span>></span>
-					<li><a href="">breadcrumb two</a></li>
+					<li><a href="">Revistas</a></li>
 				</ul>
 			</div>
 
@@ -55,47 +54,61 @@
 				</ul>
 			</div>
 
-			<div>
+			<!-- <div>
 				<p>Revistas sobre<br />
 					Tag 1, Tag 2...
 				</p>
-			</div>
+			</div>-->
 
 		</div>
 
 
 		<div class="revistas">
-			<div class="revista-1">
-				<img src="" />
-				<div class="texto-revista">
+			<div class="revista-bloco">
+				<div>
+					<img src="img/capa-revista-1.jpg" />
+				</div>
+
+				<div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					<a href="">+</a>
+					<a href="" class="plus-button">+</a>
 				</div>
 			</div>
 
-			<div class="revista-2">
-				<img src="" />
-				<div class="texto-revista">
+			<div class="revista-bloco">
+				<div>
+					<img src="img/capa-revista-2.png" />
+				</div>
+				
+				<div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					<a href="">+</a>
+					<a href="" class="plus-button">+</a>
 				</div>
 			</div>
 
-			<div class="revista-3">
-				<img src="" />
-				<div class="texto-revista">
+			<div class="revista-bloco">
+				<div>
+					<img src="img/capa-revista-1.jpg" />
+				</div>
+
+				<div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					<a href="">+</a>
+					<a href="" class="plus-button">+</a>
 				</div>
 			</div>
 
-			<div class="revista-4">
-				<img src="" />
-				<div class="texto-revista">
+			<div class="revista-bloco">
+				<div>
+					<img src="img/capa-revista-2.png" />
+				</div>
+				
+				<div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					<a href="">+</a>
+					<a href="" class="plus-button">+</a>
 				</div>
 			</div>
+
+			
 		</div>
 
 
