@@ -2018,7 +2018,7 @@ progress[value]::-webkit-progress-value::after {
 
 
 
-/* ---------- PÁGINA OBRIGADO ------------ */
+/* ---------- PÁGINA REVISTAS ------------ */
 
 .revistas{
 	width: 80%;
@@ -2050,7 +2050,7 @@ progress[value]::-webkit-progress-value::after {
 
 .revista-bloco div:last-child{
 	float: right;
-	margin: 0 5% 0 2%;
+	margin: 3% 5% 0 2%;
 	width: 50%;
 	height: 350px;
 }
@@ -2067,6 +2067,49 @@ progress[value]::-webkit-progress-value::after {
 	border-radius: 50%;
 	float: right;
 }
+
+.titulo-revista{
+	font-family: 'proxima_novabold';
+}
+
+
+/* -- selo livro -- */
+
+.selo-livro{
+	position: absolute;
+	text-align: right;
+	right: 0.9%;
+	top: 0.8%;
+	/*padding: 8%;*/
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	font-size: 0.8em;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.pucpress-selo{
+	background-color: #7C131C;
+	background-image: url('../img/selo-pucpress.png');
+}
+
+.pucsul-selo{
+	background-color: #00295C;
+	background-image: url('../img/selo-pucsul.png');
+}
+
+.champagnat-selo{
+	background-color: #EDB506;
+	background-image: url('../img/selo-champagnat.png');
+}
+
+
 
 
 

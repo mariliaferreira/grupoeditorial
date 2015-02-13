@@ -2,7 +2,9 @@
 			<ul class="cbp-rfgrid">
 					
 					<li><a href="../grupoeditorial/livros-detalhe.php">
+
 							<div>
+								<section class="selo-livro pucpress-selo"></section>
 								<img src="img/teste-livro-1.jpg" />
 							</div>
 							<div>
@@ -18,6 +20,7 @@
 
 					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
+								<section class="selo-livro pucsul-selo"></section>
 								<img src="img/teste-livro-2.jpg" />
 							</div>
 							<div>
@@ -33,6 +36,7 @@
 
 					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
+								<section class="selo-livro champagnat-selo"></section>
 								<img src="img/teste-livro-3.jpg" />
 							</div>
 							<div>
@@ -48,6 +52,7 @@
 
 					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
+								<section class="selo-livro pucpress-selo"></section>
 								<img src="img/teste-livro-4.jpg" />
 							</div>
 							<div>
@@ -63,6 +68,7 @@
 
 					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
+								<section class="selo-livro champagnat-selo"></section>
 								<img src="img/teste-livro-5.jpg" />
 							</div>
 							<div>
@@ -77,6 +83,7 @@
 
 					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
+								<section class="selo-livro pucpress-selo"></section>
 								<img src="img/teste-livro-6.jpg" />
 							</div>
 							<div>
@@ -91,6 +98,7 @@
 
 					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
+								<section class="selo-livro champagnat-selo"></section>
 								<img src="img/teste-livro-7.jpg" />
 							</div>
 							<div>
@@ -105,6 +113,7 @@
 
 					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
+								<section class="selo-livro champagnat-selo"></section>
 								<img src="img/teste-livro-8.jpg" />
 							</div>
 							<div>
