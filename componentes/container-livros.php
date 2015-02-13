@@ -1,7 +1,7 @@
 <div class="container-livros">
 			<ul class="cbp-rfgrid">
 					
-					<li><a href="../livros-detalhe.php">
+					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
 								<img src="img/teste-livro-1.jpg" />
 							</div>
@@ -16,7 +16,7 @@
 					</li>
 
 
-					<li><a href="../livros-detalhe.php">
+					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
 								<img src="img/teste-livro-2.jpg" />
 							</div>
@@ -31,7 +31,7 @@
 					</li>
 
 
-					<li><a href="../livros-detalhe.php">
+					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
 								<img src="img/teste-livro-3.jpg" />
 							</div>
@@ -46,7 +46,7 @@
 					</li>
 
 
-					<li><a href="../livros-detalhe.php">
+					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
 								<img src="img/teste-livro-4.jpg" />
 							</div>
@@ -61,7 +61,7 @@
 					</li>
 
 
-					<li><a href="../livros-detalhe.php">
+					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
 								<img src="img/teste-livro-5.jpg" />
 							</div>
@@ -75,7 +75,7 @@
 						</a>
 					</li>
 
-					<li><a href="../livros-detalhe.php">
+					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
 								<img src="img/teste-livro-6.jpg" />
 							</div>
@@ -89,7 +89,7 @@
 						</a>
 					</li>
 
-					<li><a href="../livros-detalhe.php">
+					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
 								<img src="img/teste-livro-7.jpg" />
 							</div>
@@ -103,7 +103,7 @@
 						</a>
 					</li>
 
-					<li><a href="../livros-detalhe.php">
+					<li><a href="../grupoeditorial/livros-detalhe.php">
 							<div>
 								<img src="img/teste-livro-8.jpg" />
 							</div>

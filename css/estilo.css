@@ -149,6 +149,13 @@ h2{
 	font-size: 1.6em;
 }
 
+h3{
+	margin: 6% 0 0 0;
+	font-family: 'proxima_novaregular';
+	color: #4f4f4f;
+	font-size: 1.1em;
+}
+
 h4{
 	margin: 5% 0;
 	font-size: 1.2em;
@@ -1371,6 +1378,14 @@ ul#tab li h3{
 	color: #212121;
 }
 
+.tab-sobre-autor span{
+	text-align: left;
+	margin: 3% 0;
+	font-size: 1.2em;
+	font-family: 'proxima_novaregular';
+	color: #1b3e65;
+}
+
 .botoes-acoes-livros{
 	margin-top: 5%;
 }
@@ -1973,6 +1988,33 @@ progress[value]::-webkit-progress-value::after {
 	background-color: orange;
 }
 
+
+/* ---------- PÁGINA OBRIGADO ------------ */
+
+.coluna-obrigado{
+	margin-bottom: 5%;
+}
+
+.coluna-obrigado progress{
+	margin: 3% 0;
+}
+
+.coluna-obrigado button{
+	background-color: #1b3e65;
+	margin-top: 2%;
+}
+
+.numero-pedido{
+	font-family: 'brandon_grotesqueblack';
+	font-size: 1.6em;
+	color: #114680;
+	letter-spacing: 0.1em;
+}
+
+.titulo-resumo{
+	font-size: 1.3em;
+	font-family: 'proxima_novabold';
+}
 
 
 /* ---------- MEDIA QUERIES ------------ */

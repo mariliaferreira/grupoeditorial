@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 	<head>
 	  <title>Grupo Editorial PUCPR - Editora Champagnat, PUCPress e PUCSul</title>
@@ -53,23 +53,25 @@
 		<h1>obrigado :)</h1>
 
 		<div class="checkout-login">
-			<div class="checkout-login-conta">
-				<h3>Resumo da sua compra</h3>
-				<span>(também enviaremos um email com essas informações)</span>
+			<div class="checkout-login-conta coluna-obrigado">
+
+				<h3 class="titulo-resumo">Resumo da sua compra</h3>
+				<span class="small-grey">(também enviaremos um email com essas informações)</span>
 
 				<h3>Número do Pedido</h3>
-				<span>12656848</span>
+				<span class="numero-pedido">12656848</span>
 
 				<h3>Código de Rastreamento</h3>
-				<span>32132154894415164</span>
+				<span class="numero-pedido">32132154894415164</span>
 
 				<h3>Entrega estimada para:</h3>
-				<span>22/02/2015</span>
+				<span class="numero-pedido">22/02/2015</span>
+
 			</div>
 
-			<div class="checkout-login-primeiro-acesso">
-				<h3>Gostou da experiência, /nome.usuario/ ?</h3>
-				<span>Conclua seu cadastro e ganhe 5% de desconto na próxima compra!</span><br />
+			<div class="checkout-login-primeiro-acesso coluna-obrigado">
+				<h3 class="titulo-resumo">Gostou da experiência, /nome.usuario/ ?</h3>
+				<span class="small-grey">Conclua seu cadastro e ganhe 5% de desconto na próxima compra!</span><br />
 				<progress max="100" value="80"></progress>
 				<button>Concluir meu cadastro</button>
 			</div>
