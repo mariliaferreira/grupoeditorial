@@ -1899,20 +1899,29 @@ progress[value]::-webkit-progress-value::after {
 	margin: 0 auto;
 }
 
+.total-resenhas{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 4%;
+}
+
 .detalhe-autor-resenha{
 	font-family: 'brandon_grotesquelight';
 	line-height: 150%;
 	color: #424242;
 	padding-bottom: 4%;
+	float: left;
+	width: 70%;
+	border-top: 1px solid #e8e8e8;
 }
 
-.total-resenhas{
-	width: 70%;
-	margin: 0 auto;
+.imagem-resenha{
+	float: right;
 }
 
 .resenhas{
 	width: 100%;
+	background-color: orange;
 }
 
 

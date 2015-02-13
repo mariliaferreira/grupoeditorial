@@ -52,13 +52,6 @@
 				</ul>
 			</div>
 
-			<div>
-				<p>Livros sobre<br />
-					Tag 1, Tag 2...
-				</p>
-			</div>
-
-
 		</div>
 
 		<div class="total-resenhas">
@@ -66,40 +59,56 @@
 			<div class="resenhas">
 				<div class="detalhe-autor-resenha">
 					<h2>Elogio à Simplicidade</h2>
+					<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
 					<!-- <img src="" /> -->
 					<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
 					<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
 					<!-- <img src="" /> -->
+				</div>
+				<div class="imagem-resenha">
+					<img src="img/imagem-resenha.jpg" />
 				</div>
 			</div>
 
 			<div class="resenhas">
 				<div class="detalhe-autor-resenha">
 					<h2>Elogio à Simplicidade</h2>
+					<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
 					<!-- <img src="" /> -->
 					<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
 					<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
 					<!-- <img src="" /> -->
+				</div>
+				<div class="imagem-resenha">
+					<img src="img/imagem-resenha.jpg" />
 				</div>
 			</div>
 
 			<div class="resenhas">
 				<div class="detalhe-autor-resenha">
 					<h2>Elogio à Simplicidade</h2>
+					<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
 					<!-- <img src="" /> -->
 					<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
 					<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
 					<!-- <img src="" /> -->
+				</div>
+				<div class="imagem-resenha">
+					<img src="img/imagem-resenha.jpg" />
 				</div>
 			</div>
 
 			<div class="resenhas">
 				<div class="detalhe-autor-resenha">
 					<h2>Elogio à Simplicidade</h2>
+					<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
 					<!-- <img src="" /> -->
 					<span>Resenha de <strong>Maria Aparecida das Neves</strong>, 10/01/2015</span> <br />
 					<span>Livro <strong>"Elogio à Simplicidade"</strong> | Autor <strong>Marta Luciane Fischer</strong></span>
 					<!-- <img src="" /> -->
+				</div>
+				<div class="imagem-resenha">
+					<img src="img/imagem-resenha.jpg" />
 				</div>
 			</div>
 
