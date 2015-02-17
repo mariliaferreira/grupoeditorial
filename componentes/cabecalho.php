@@ -33,9 +33,9 @@
 		<div class="search__order">
 			<div class="search__order-inner">
 				<form action="search.php" method="get">
-				<input placeholder="Qual título?" class="input-buscar"></input>
+				<input placeholder="Qual título?" name="dd1" class="input-buscar"></input>
 				<button class="search__close search__cancel"><i class="icon fa fa-fw fa-close"></i>Close</button>
-				<button class="button-buscar">buscar</button>
+				<button class="button-buscar" name="acao">buscar</button>
 				</form>
 			</div><!-- /search__order-inner -->
 		</div><!-- /search__order -->
