@@ -2054,7 +2054,7 @@ progress[value]::-webkit-progress-value::after {
 
 .numero-pedido{
 	font-family: 'brandon_grotesqueblack';
-	font-size: 1.6em;
+	font-size: 1.4em;
 	color: #114680;
 	letter-spacing: 0.1em;
 }
@@ -2072,10 +2072,6 @@ progress[value]::-webkit-progress-value::after {
 	width: 80%;
 	margin: 0 auto;
 	background-color: orange;
-}
-
-.revista-1{
-
 }
 
 .revista-bloco{
@@ -2163,6 +2159,57 @@ progress[value]::-webkit-progress-value::after {
 }
 
 
+/* ---------- MEUS PEDIDOS ------------ */
+
+.meus-pedidos{
+	width: 70%;
+	height: 100px;
+	margin-left: 15%;
+}
+
+.meus-pedidos > div{
+	width: 30%;
+	margin-right: 1%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #e3e3e3;
+}
+
+.meus-pedidos > div:first-child{
+	
+}
+
+.meus-pedidos > div:last-child{
+	
+	margin: 0;
+	border: none;
+}
+
+.meus-pedidos > div > h3{
+	padding-left: 10%;
+}
+
+.meus-pedidos > div > span{
+	padding-left: 10%;
+}
+
+.meu-carrinho{
+	opacity: 0;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -0-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.meu-carrinho:target {
+    opacity: 1;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -0-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
 
 
 
