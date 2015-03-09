@@ -45,37 +45,57 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Finalizar Compra</a></li>
+					<li><a href="">Login</a></li> <span>></span>
+					<li><a href="">Meus dados</a></li>
 				</ul>
 			</div>
 		</div>
 
-		<h1>finalizar compra</h1>
+		<h1>meus dados</h1>
 
-		<?php
-			require('componentes/passos-checkout.php');
-		?>
-
-		<div class="checkout-box">
+		<div>
+			<div class="meus-dados">
+				<div class="checkout-box">
 			<div class="div-input">
+
+				<h6>Dados pessoais</h6>
 			
+				
+				<label>Nome</label><br />
+				<span class="dados-preenchidos">Marilia Antunes Ferreira</span> <!-- <a href="" class="alterar-dados"><i class="fa fa-pencil-square-o"></i> alterar</a> --> <br /><br /> 
+
+				<label>Email</label><br />
+				<span class="dados-preenchidos">alguem@email.com</span> <a href="" class="alterar-dados"><i class="fa fa-pencil-square-o"></i> alterar</a> <br /><br /> 
+
+				<label>Senha</label><br />
+				<span class="dados-preenchidos">****************</span> <a href="" class="alterar-dados"><i class="fa fa-pencil-square-o"></i> alterar</a> <br /><br /> 
+
+
+				<h6>Dados de entrega</h6>
+
 				<label>CEP</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
+				<span class="dados-preenchidos">80250-250</span><br /><br />
+								
+
 				<label>Endereço</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
+				<span class="dados-preenchidos">Avenida Visconde de Guarapuava</span><br /><br />
+				
+
 				<div class="div-form-inside">
-					<label class="input-texto-pequeno-2">Número</label> 
-					<input placeholder="" type="text" class="input-texto-pequeno"></input>
+					<label class="input-texto-pequeno-2">Número</label>
+					<span class="input-texto-pequeno">123</span><br /><br />
 				</div>
+
 				<div class="div-form-inside">
 					<label class="input-texto-pequeno-2">Complemento</label> 
-					<input placeholder="" type="text" class="input-texto-pequeno"></input>
+					<span class="input-texto-pequeno">Apto 1515</span><br /><br />
 				</div>
 
 				<div class="div-form-inside">
 					<label class="input-texto-pequeno-2">Bairro</label> 
-					<input placeholder="" type="text" class="input-texto-pequeno"></input>
+					<span class="input-texto-pequeno">Centro</span><br /><br />
 				</div>
+
 				<div class="div-form-inside">
 					<label class="input-texto-pequeno-2">Estado</label> 
 					<select class="select">
@@ -85,13 +105,17 @@
 					  <option value="saopaulo">São Paulo</option>
 					</select>
 				</div>
+
 				<label>Cidade</label><br />
 				<input placeholder="" type="text" class="input-texto"></input><br />
+
+				<button class="botao-continuar">SALVAR</button>
+
 			</div>
-			
-			<button class="botao-continuar">CONTINUAR PARA ENDEREÇO <i class="fa fa-chevron-right"></i></button>
-			<button class="botao-voltar"><i class="fa fa-chevron-left"></i> VOLTAR</button>
+			</div>
 		</div>
+
+		
 
 		<?php
 		require('componentes/footer.php');

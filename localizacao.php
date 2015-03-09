@@ -26,6 +26,8 @@
   	  <script src="js/tabs.js"></script>
   	  <script src="js/classie.js"></script>
 
+
+
   	<!--  <script type="text/javascript">
 	  //   window.onload = function (){
 	  //     var myPDF = new PDFObject({ url: "objetos/examplePDF.pdf" }).embed();
@@ -45,53 +47,32 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Finalizar Compra</a></li>
+					<li><a href="">Localização</a></li>
 				</ul>
 			</div>
 		</div>
 
-		<h1>finalizar compra</h1>
+		<h1>localização</h1>
 
-		<?php
-			require('componentes/passos-checkout.php');
-		?>
+		<div class="default-box">
 
-		<div class="checkout-box">
-			<div class="div-input">
+			<i class="fa fa-map-marker icone-localizacao"></i>
+			<p>Você pode encontrar a Livraria Champagnat na <strong>Pontifícia Universidade Católica do Paraná</strong>, em Curitiba.</p>
+
+			<!-- <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Pontif%C3%ADcia%20Universidade%20Cat%C3%B3lica%20do%20Paran%C3%A1%2C%20Curitiba%20-%20Paran%C3%A1%2C%20Brasil&key=AIzaSyAhZ_RZRcdAew03MesxTbIY_VqY3MdKzx0"></iframe>
+			 -->
 			
-				<label>CEP</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
-				<label>Endereço</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
-				<div class="div-form-inside">
-					<label class="input-texto-pequeno-2">Número</label> 
-					<input placeholder="" type="text" class="input-texto-pequeno"></input>
-				</div>
-				<div class="div-form-inside">
-					<label class="input-texto-pequeno-2">Complemento</label> 
-					<input placeholder="" type="text" class="input-texto-pequeno"></input>
-				</div>
+			 <div class="endereco-localizacao">
+			 	<h3>Endereço</h3>
+			 	<br />
+			 	Rua Imaculada Conceição, 1155<br />
+				Bairro Prado Velho<br />
+				CEP: 80215-901<br />
+			 </div>
 
-				<div class="div-form-inside">
-					<label class="input-texto-pequeno-2">Bairro</label> 
-					<input placeholder="" type="text" class="input-texto-pequeno"></input>
-				</div>
-				<div class="div-form-inside">
-					<label class="input-texto-pequeno-2">Estado</label> 
-					<select class="select">
-					  <option value="parana">Paraná</option>
-					  <option value="riograndedosul">Rio Grande do Sul</option>
-					  <option value="santacararina">Santa Catarina</option>
-					  <option value="saopaulo">São Paulo</option>
-					</select>
-				</div>
-				<label>Cidade</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
-			</div>
-			
-			<button class="botao-continuar">CONTINUAR PARA ENDEREÇO <i class="fa fa-chevron-right"></i></button>
-			<button class="botao-voltar"><i class="fa fa-chevron-left"></i> VOLTAR</button>
+
 		</div>
+
 
 		<?php
 		require('componentes/footer.php');

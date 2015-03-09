@@ -164,6 +164,15 @@ h4{
 	color: #1b3e65;
 }
 
+h6{
+
+	font-family: 'proxima_novaregular';
+	color: #4f4f4f;
+	font-size: 1.3em;
+	text-align: left;
+	padding: 2% 0;
+}
+
 a{
 	margin: 0;
 	color: #6786a9;
@@ -1618,6 +1627,20 @@ ul#tab li h3{
 	text-align: center;
 }
 
+.default-box{
+	background-color: #f6f6f6;
+	margin: 0 auto;
+	margin-bottom: 4%;
+	padding: 2%;
+	border: solid 1px #dcdcdc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	text-align: center;
+	width: 50%;
+}
+
 .communication-box{
 	width: 20%;
 }
@@ -2211,8 +2234,52 @@ progress[value]::-webkit-progress-value::after {
     transition: all 0.2s linear;
 }
 
+.mais-detalhes{
+	margin: auto auto;
+}
 
+.dados-preenchidos{
+	font-family: 'proxima_novaregular';
+}
 
+.alterar-dados{
+	padding-left: 5%;
+	font-family: 'proxima_novabold';
+}
+
+/* ---------- LOCALIZACAO ---------- */
+
+.icone-localizacao{
+	font-size: 4em;
+}
+
+.default-box i{
+	font-size: 3.5em;
+	color: #1b3e65;
+}
+
+.default-box p {
+	text-align: left;
+}
+
+.default-box ul{
+	text-align: left;
+	line-height: 170%;
+}
+
+.default-box ul li{
+	list-style: none;
+}
+
+.endereco-localizacao{
+	font-family: 'proxima_novaregular';
+	background-color: white;
+	padding: 0.5% 4% 6% 4%;
+	border-left: 5px solid #7a91ab;
+	text-align: left;
+	color: #2d2d2d;
+	line-height: 150%;
+}
 
 /* ---------- MEDIA QUERIES ------------ */
 

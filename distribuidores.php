@@ -26,6 +26,8 @@
   	  <script src="js/tabs.js"></script>
   	  <script src="js/classie.js"></script>
 
+
+
   	<!--  <script type="text/javascript">
 	  //   window.onload = function (){
 	  //     var myPDF = new PDFObject({ url: "objetos/examplePDF.pdf" }).embed();
@@ -45,53 +47,29 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Finalizar Compra</a></li>
+					<li><a href="">Distribuidores</a></li>
 				</ul>
 			</div>
 		</div>
 
-		<h1>finalizar compra</h1>
+		<h1>distribuidores</h1>
 
-		<?php
-			require('componentes/passos-checkout.php');
-		?>
+		<div class="default-box">
 
-		<div class="checkout-box">
-			<div class="div-input">
+			<i class="fa fa-truck icone-loalizacao"></i>
 			
-				<label>CEP</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
-				<label>Endereço</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
-				<div class="div-form-inside">
-					<label class="input-texto-pequeno-2">Número</label> 
-					<input placeholder="" type="text" class="input-texto-pequeno"></input>
-				</div>
-				<div class="div-form-inside">
-					<label class="input-texto-pequeno-2">Complemento</label> 
-					<input placeholder="" type="text" class="input-texto-pequeno"></input>
-				</div>
+			<ul>
+				<li>SBS - Book Service</li>
+				<li>Livraria Cultura</li>
+				<li>SuperPedido</li>
+				<li>Livraria da Unesp</li>
+				<li>Livraria da Travessa</li>
+				<li>Livrarias Curitiba</li>
+			</ul>
 
-				<div class="div-form-inside">
-					<label class="input-texto-pequeno-2">Bairro</label> 
-					<input placeholder="" type="text" class="input-texto-pequeno"></input>
-				</div>
-				<div class="div-form-inside">
-					<label class="input-texto-pequeno-2">Estado</label> 
-					<select class="select">
-					  <option value="parana">Paraná</option>
-					  <option value="riograndedosul">Rio Grande do Sul</option>
-					  <option value="santacararina">Santa Catarina</option>
-					  <option value="saopaulo">São Paulo</option>
-					</select>
-				</div>
-				<label>Cidade</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
-			</div>
-			
-			<button class="botao-continuar">CONTINUAR PARA ENDEREÇO <i class="fa fa-chevron-right"></i></button>
-			<button class="botao-voltar"><i class="fa fa-chevron-left"></i> VOLTAR</button>
+
 		</div>
+
 
 		<?php
 		require('componentes/footer.php');

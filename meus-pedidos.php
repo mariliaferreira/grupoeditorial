@@ -67,7 +67,7 @@
 					<h3>Entrega estimada para:</h3>
 					<span class="numero-pedido">22/02/2015</span>
 				</div>
-				<a href="#meu-carrinho">Mais detalhes</a>
+				<a href="#meu-carrinho" class="mais-detalhes">Mais detalhes do pedido</a>
 			</div>
 
 			<div class="meu-carrinho" id="meu-carrinho">
@@ -82,8 +82,6 @@
 				<a href="#meus-pedidos">fechar</a>
 			</div>
 		</div>
-
-		
 
 		<?php
 		require('componentes/footer.php');
