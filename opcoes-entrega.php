@@ -60,10 +60,12 @@
 				<li>
 					<i class="fa fa-truck"></i> 
 					Entrega <strong>PAC Correios</strong>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</li>
 				<li>
 					<i class="fa fa-plane"></i>
 					Entrega <strong>SEDEX</strong>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</li>
 								
 			</ul>

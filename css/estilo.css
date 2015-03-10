@@ -2292,6 +2292,10 @@ progress[value]::-webkit-progress-value::after {
 	line-height: 150%;
 }
 
+.logo-pucpress{
+	width: 150px;
+}
+
 /* ---------- MEDIA QUERIES ------------ */
 
 @media screen and (max-width: 568px) {

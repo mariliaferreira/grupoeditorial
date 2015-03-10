@@ -47,12 +47,12 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Formas de Pagamento</a></li>
+					<li><a href="">Como Funciona</a></li>
 				</ul>
 			</div>
 		</div>
 
-		<h1>formas de pagamento</h1>
+		<h1>como funciona</h1>
 
 		<div class="default-box">
 
@@ -60,37 +60,9 @@
 			
 			<ul>
 				<li>
-					<i class="fa fa-barcode"></i> 
-					Boleto Bancário
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</li>
-				<li>
-					<i class="fa fa-cc-visa"></i> 
-					Cartão de <strong>Crédito VISA</strong>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</li>
-				<li>
-					<i class="fa fa-cc-mastercard"></i> 
-					Cartão de <strong>Crédito MasterCard</strong>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</li>
-				<li>
-					<i class="fa fa-cc-visa"></i> 
-					Cartão de <strong>Débito VISA</strong>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</li>
-				<li>
-					<i class="fa fa-cc-mastercard"></i> 
-					Cartão de <strong>Débito MasterCard</strong>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</li>
-				<li>
-					<i class="fa fa-cc-paypal"></i>
-					Paypal
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Infográfico Como Funciona</p>
 				</li>
 
-				
 			</ul>
 
 

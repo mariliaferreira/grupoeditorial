@@ -3,9 +3,9 @@
 	<head>
 	  <title>Grupo Editorial PUCPR - Editora Champagnat, PUCPress e PUCSul</title>
 
-	  <!-- Meta Tags - Informações sobre o Website -->
+	  <!-- Meta Tags - InformaÃ§Ãµes sobre o Website -->
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <meta name="keywords" content="grupo editorial pucpr, champagnat, pucpress, pucsul, livro, livros, revistas, acadêmico, pucpr">
+	  <meta name="keywords" content="grupo editorial pucpr, champagnat, pucpress, pucsul, livro, livros, revistas, acadÃªmico, pucpr">
 	  <meta name="description" content="Grupo Editorial PUCPR - Editora Champagnat, PUCPress e PUCSul">
 	  <meta http-equiv="content-language" content="pt-br">
 	  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
@@ -47,12 +47,12 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Formas de Pagamento</a></li>
+					<li><a href="">Selo PUCPRESS</a></li>
 				</ul>
 			</div>
 		</div>
 
-		<h1>formas de pagamento</h1>
+		<h1>selo pucpress</h1>
 
 		<div class="default-box">
 
@@ -60,37 +60,9 @@
 			
 			<ul>
 				<li>
-					<i class="fa fa-barcode"></i> 
-					Boleto Bancário
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</li>
-				<li>
-					<i class="fa fa-cc-visa"></i> 
-					Cartão de <strong>Crédito VISA</strong>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</li>
-				<li>
-					<i class="fa fa-cc-mastercard"></i> 
-					Cartão de <strong>Crédito MasterCard</strong>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</li>
-				<li>
-					<i class="fa fa-cc-visa"></i> 
-					Cartão de <strong>Débito VISA</strong>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</li>
-				<li>
-					<i class="fa fa-cc-mastercard"></i> 
-					Cartão de <strong>Débito MasterCard</strong>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</li>
-				<li>
-					<i class="fa fa-cc-paypal"></i>
-					Paypal
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>selo pucpress</p>
 				</li>
 
-				
 			</ul>
 
 

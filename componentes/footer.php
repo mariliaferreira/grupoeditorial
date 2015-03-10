@@ -13,18 +13,18 @@
 	
 	<ul>
 		<li>Pedidos</li>
-		<li><a href="../comofunciona.php">Como Funciona</a></li>
-		<li><a href="../formasdepagamento.php">Formas de Pagamento</a></li>
-		<li><a href="../opcoesdeentrega.php">Opções de Entrega</a></li>
+		<li><a href="comofunciona.php">Como Funciona</a></li>
+		<li><a href="formas-pagamento.php">Formas de Pagamento</a></li>
+		<li><a href="opcoes-entrega.php">Opções de Entrega</a></li>
 	</ul>
 	
 	<ul>
 		<li>Informações</li>
-		<li><a href="../sobrenos.php">Sobre nós</a></li>
+		<li><a href="sobrenos.php">Sobre nós</a></li>
 		<li><a href="">Editora Champagnat</a></li>
-		<li><a href="">Selo PUCPress</a></li>
-		<li><a href="../localizacao.php">Localização</a></li>
-		<li><a href="../distribuidores.php">Distribuidores</a></li>
+		<li><a href="selo-pucpress.php">Selo PUCPress</a></li>
+		<li><a href="localizacao.php">Localização</a></li>
+		<li><a href="distribuidores.php">Distribuidores</a></li>
 	</ul>
 
 	<ul>
