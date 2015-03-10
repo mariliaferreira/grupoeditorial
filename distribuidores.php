@@ -59,12 +59,30 @@
 			<i class="fa fa-truck icone-loalizacao"></i>
 			
 			<ul>
-				<li>SBS - Book Service</li>
-				<li>Livraria Cultura</li>
-				<li>SuperPedido</li>
-				<li>Livraria da Unesp</li>
-				<li>Livraria da Travessa</li>
-				<li>Livrarias Curitiba</li>
+				<li>
+					SBS - Book Service<br />
+					<a href="http://www.sbs.com.br/" target="_blank">www.sbs.com.br</a>
+				</li>
+				<li>
+					Livraria Cultura<br />
+					<a href="http://www.livrariacultura.com.br/" target="_blank">www.livrariacultura.com.br</a>
+				</li>
+				<li>
+					SuperPedido<br />
+					<a href="http://www.superpedidotecmedd.com.br/SuperpedidoTecmedd/" target="_blank">www.superpedidotecmedd.com.br</a>
+				</li>
+				<li>
+					Livraria da Unesp<br />
+					<a href="http://www.livrariaunesp.com.br/" target="_blank">www.livrariaunesp.com.br</a>
+				</li>
+				<li>
+					Livraria da Travessa<br />
+					<a href="http://www.travessa.com.br/" target="_blank">www.travessa.com.br</a>
+				</li>
+				<li>
+					Livrarias Curitiba
+					<a href="http://www.livrariascuritiba.com.br/" target="_blank">www.livrariascuritiba.com.br</a>
+				</li>
 			</ul>
 
 
