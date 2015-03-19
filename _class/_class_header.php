@@ -49,6 +49,8 @@ class header {
 		$sx .= '	  <script src="//code.jquery.com/jquery-1.10.2.js"></script>' . $cr;
 		$sx .= '  	  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>' . $cr;
 		$sx .= '  	  <script src="js/responsive-menu.js"></script>' . $cr;
+		$sx .= '  	  <script src="js/_cesta_compras.js"></script>' . $cr;
+		
 		$sx .= '	</head>' . $cr;
 		return ($sx);
 	}

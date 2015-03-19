@@ -1,85 +1,93 @@
-<!DOCTYPE html>
-<html>
-	<head>
-	  <title>Grupo Editorial PUCPR - Editora Champagnat, PUCPress e PUCSul</title>
+<?php
+require ("cab.php");
+require ('componentes/cabecalho.php');
 
-	  <!-- Meta Tags - Informações sobre o Website -->
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <meta name="keywords" content="grupo editorial pucpr, champagnat, pucpress, pucsul, livro, livros, revistas, acadêmico, pucpr">
-	  <meta name="description" content="Grupo Editorial PUCPR - Editora Champagnat, PUCPress e PUCSul">
-	  <meta http-equiv="content-language" content="pt-br">
-	  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-	  <meta name="author" content="Grupo Editorial PUCPR">
-	  <meta name="reply-to" content="contato@editorachampagnat.com.br">
+/* Cadastro */
+$nome = $dd[1];
+$email = $dd[2];
+$senha = $dd[3];
 
+if (strlen($email) > 0)
+	{
+		require("_class/_class_cliente.php");
+		$cli = new cliente;
+		
+		$ok = $cli->existe_cliente($email);
+		
+		if ($ok == 0)
+			{
+				$erro = '';
+				$cli->cadastra_cliente($nome,$email,$senha);
+			} else {
+				$erro = '<span class="email_error">e-mail já cadastrado</span>';				
+			}
 
-	  <!-- Arquivos de CSS -->
-	  <link rel="stylesheet" type="text/css" href="css/estilo.css">
-	  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-	  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
-	  
-
-	  <!-- Arquivos de Javascript -->
-	  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  	  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-  	  <script src="js/responsive-menu.js"></script>
-  	  <script src="js/tabs.js"></script>
-  	  <script src="js/classie.js"></script>
-
-  	<!--  <script type="text/javascript">
-	  //   window.onload = function (){
-	  //     var myPDF = new PDFObject({ url: "objetos/examplePDF.pdf" }).embed();
-	  //   };
-	  // </script>-->
-
-	</head>
+	}
 
 
-	<body>
-
-		<?php
-		require('componentes/cabecalho.php');
-		?>
-
-		<div class="header-livros">
-			<div class="breadcrumb">
-				<ul>
-					<li><a href=""><i class="fa fa-home"></i></a></li> <span>></span>
-					<li><a href="">Cadastro</a></li>
-				</ul>
-			</div>
+$sx = '
+<body>
+	<div class="header-livros">
+		<div class="breadcrumb">
+			<ul>
+				<li>
+					<a href=""><i class="fa fa-home"></i></a>
+				</li>
+				<span>></span>
+				<li>
+					<a href="">Cadastro</a>
+				</li>
+			</ul>
 		</div>
-
+	</div>
+	<form method="post">
 		<div class="communication-box">
 			<img src="img/icone-livro.png" />
 			<h1>cadastro</h1>
-			
+
 			<div class="div-input">
-				<label>Nome</label><br />
-				<input placeholder="" type="text" class="input-texto"></input><br />
-				<label>Email</label><br />
-				<input placeholder="" type="email" class="input-texto"></input><br />
-				<label>Senha</label><br />
-				<input placeholder="" type="password" class="input-texto"></input><br />
+				<label>Nome</label>
+				<br />
+				<input placeholder="" type="text" class="input-texto" name="dd1" value="'.$dd[1].'">
+				</input>
+				<br />
+				<label>Email</label>
+				<br />
+				<input placeholder="" type="email" class="input-texto" name="dd2" value="'.$dd[2].'">
+				</input>
+				<br />
+				<label>Senha</label>
+				<br />
+				<input placeholder="" type="password" class="input-texto" name="dd3" value="'.$dd[3].'">
+				</input>
+				<br />
+				'.$erro.'
 			</div>
-			
-			<button class="botao-communication-box login-normal">Criar minha conta</button><br />
-			<span class="small-grey">ou</span><br />
-			<button class="botao-communication-box login-facebook"><i class="fa fa-facebook-square"></i> Login com Facebook</button>
+
+			<button class="botao-communication-box login-normal">
+				Criar minha conta
+			</button>
 			<br />
-			
+			<span class="small-grey">ou</span>
+			<br />
+			<button class="botao-communication-box login-facebook">
+				<i class="fa fa-facebook-square"></i> Login com Facebook
+			</button>
+			<br />
+
 			<a href="" class="usuario-sem-conta-calltoaction">Não tenho conta ainda</a>
-		
+
 		</div>
+	</form>
+';
+echo $sx;
 
-		
+require ('componentes/footer.php');
 
-		<?php
-		require('componentes/footer.php');
-		?>
+?>
 
-		<script src="js/classie.js"></script>
-		<script src="js/search-checkout.js"></script>
-		
-	</body>
+	<script src="js/classie.js"></script>
+	<script src="js/search-checkout.js"></script>
+
+</body>
 </html>

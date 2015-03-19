@@ -68,6 +68,13 @@ class produto {
 		$preco = $ln['ob_preco'];
 		$promo = $ln['ob_preco_por'];
 		$id = $ln['id_ob'];
+		
+		/* titulo superior a máximo */
+		$max = 50;
+		if (strlen($titulo) > $max)
+			{
+				$titulo = substr($titulo,0,$max);
+			}
 
 		$comment = $ln -> coment;
 
@@ -88,7 +95,7 @@ class produto {
 		/* Esgotado */
 		$esgotado = 0;
 		if ($preco == 0) {
-			$sp = '<h6>Esgotado</h6>';
+			$sp = '<span class="produto_esgotado">Esgotado</span>';
 			$esgotado = 1;
 		}
 		$preco = $sp;
@@ -113,10 +120,14 @@ class produto {
 			$sx .= '';
 		} else {
 			/* Mostra botao adicionar */
-			$sx .= '
-					<a href="">
-						<span class="add-carrinho">Adicionar ao carrinho</span>
-					</a>
+			$onmouse=' onclick="adicionar_na_cesta(\''.$id.'\',\'prod'.$id.'\');" ';
+			$sx .= '<div id="prod'.$id.'">
+						<span 
+								class="add-carrinho"
+								'.$onmouse.' 
+								style="cursor: pointer;">Adicionar ao carrinho
+						</span>
+					</div>
 				';
 		}
 		$sx .= '</li>';
