@@ -58,6 +58,8 @@
 				<label>Senha</label><br />
 				<input placeholder="" type="password" class="input-texto"></input><br />
 			</div>
+
+			<!-- <span class="aviso-email-cadastrado"><i class="fa fa-exclamation-triangle"></i> Este email já esta cadastrado. <a href="">Esqueci minha senha</a></span> -->
 			
 			<button class="botao-communication-box login-normal">Criar minha conta</button><br />
 			<span class="small-grey">ou</span><br />

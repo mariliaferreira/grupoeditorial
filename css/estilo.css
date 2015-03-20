@@ -1742,6 +1742,11 @@ label{
 	margin-right: 8%;
 }
 
+.aviso-email-cadastrado{
+	font-family: 'proxima_novalight';
+	color: #d72f37;
+}
+
 
 input[type="text"], input[type="password"], input[type="email"]{
     font-family: 'proxima_novaregular';
