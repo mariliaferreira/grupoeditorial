@@ -23,6 +23,12 @@
 	  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   	  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
   	  <script src="js/responsive-menu.js"></script>
+
+  	  <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+	  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+	  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
 	</head>
 
 
