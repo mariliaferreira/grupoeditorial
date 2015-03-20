@@ -1037,6 +1037,11 @@ h6{
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
+.produto-adicionado-cart{
+	color: #8c8c8c;
+	background-color: #e4e4e4; 
+}
+
 .add-carrinho:hover{
 	font-family: 'proxima_novalight';
 }
