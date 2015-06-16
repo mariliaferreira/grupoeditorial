@@ -29,10 +29,10 @@ class Main extends CI_Controller {
 		$this -> load -> view('header/cab',$data);
 		
 		$this -> load -> view('banners/banner',$data);
-		$this -> load -> view('banners/vitrini',$data);
-		$this -> load -> view('banners/promocao',$data);
+		//$this -> load -> view('banners/vitrini',$data);
+		$this -> load -> view('book_pages',$data);
 		
-		$this -> lang -> line('hello');
+		//$this -> lang -> line('hello');
 		
 		$this -> load -> view('header/footer',$data);
 	}
